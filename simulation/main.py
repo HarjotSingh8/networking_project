@@ -1,5 +1,6 @@
 import traffic_simulation
 from random_topology import RandomTopology
+from smart_topology import SmartTopology
 import json
 
 simultation_params = {
@@ -7,6 +8,8 @@ simultation_params = {
     "sim_center": (42.3141061843, -83.0368789337),
     "connection_distance": 0.1,
     "num_min_connections": 3,
+    "similarity_weight": 0.7,
+    "distance_weight": 0.3,
 }
 
 def new_simulation():
@@ -31,7 +34,7 @@ def new_simulation():
         main_box=simulation_bounding_box,
         bounding_box=BOUNDING_BOX,
         time_window=1,
-        time_offset_range=(0, 60),
+        time_offset_range=(0, 240),
     )
     return simulated_routes, simulation_bounding_box
 
@@ -73,5 +76,8 @@ if __name__ == "__main__":
 
 
     # run network simulation on simulated routes
-    network_simulation = RandomTopology(simulated_routes, simulation_bounding_box, simultation_params)
+    # network_simulation = RandomTopology(simulated_routes, simulation_bounding_box, simultation_params)
+    network_simulation = SmartTopology(simulated_routes, simulation_bounding_box, simultation_params, "/simulation_data/smart_topology.json")
+    network_simulation.run_simulation(time_interval=1)
+    network_simulation = RandomTopology(simulated_routes, simulation_bounding_box, simultation_params, "/simulation_data/random_topology.json")
     network_simulation.run_simulation(time_interval=1)

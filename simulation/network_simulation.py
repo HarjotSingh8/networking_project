@@ -3,7 +3,7 @@ import math
 import random
 
 class NetworkSimulation:
-    def __init__(self, cars, sim_co_ordinates, sim_params):
+    def __init__(self, cars, sim_co_ordinates, sim_params, sim_data_file=None):
         """
         Initialize the network simulation with a list of cars.
 
@@ -15,11 +15,14 @@ class NetworkSimulation:
         self.cars = cars
         self.sim_co_ordinates = sim_co_ordinates
         self.sim_params = sim_params
+        self.sim_data_file = sim_data_file
         self.init_cars()
         self.timestamp = 0
         self.cars_completed = 0
         self.new_connections_made = 0
         self.old_connections_dropped = 0
+        self.active_connections = 0
+        self.analytics = []
 
     def calculate_distance(self, pos1, pos2):
         """
@@ -110,7 +113,31 @@ class NetworkSimulation:
         This function should be implemented in subclasses.
         """
         raise NotImplementedError("This method should be overridden in subclasses.")
+    def analytics_update(self):
+        """
+        Update the analytics for the simulation.
+        This function should be implemented in subclasses.
+        """
+        self.analytics.append({
+            'timestamp': self.timestamp,
+            'cars_completed': self.cars_completed,
+            'new_connections_made': self.new_connections_made,
+            'old_connections_dropped': self.old_connections_dropped,
+            'active_connections': self.active_connections,
+            'active_cars': len([car for car in self.cars if car['active']]),
+        })
+    
+    def save_analytics(self, filename):
+        """
+        Save the simulation analytics to a file.
 
+        Args:
+            filename (str): The name of the file to save the analytics.
+        """
+        with open(filename, 'w') as f:
+            for entry in self.analytics:
+                f.write(f"{entry}\n")
+        print(f"Analytics saved to {filename}")
     def run_simulation(self, time_interval=1):
         """
         Run the simulation for each car in the network.
@@ -135,3 +162,9 @@ class NetworkSimulation:
                     
                     # Calculate the motion vector and speed for network topology
                     car['motion_vector'] = self.simulate_car_vectors(car, time_interval)
+            
+            # Update the analytics
+            self.analytics_update()
+        
+        # save the analytics to a file
+        self.save_analytics(self.sim_data_file)
