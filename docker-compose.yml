@@ -1,0 +1,63 @@
+services:
+  # extract routing graph
+  # sudo docker run -t -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-extract -p /opt/car.lua /data/alt.osm.pbf || echo "osrm-extract failed"
+  osrm-extract:
+    image: ghcr.io/project-osrm/osrm-backend
+    command: osrm-extract -p /opt/car.lua /data/alt.osm.pbf
+    volumes:
+      - ./data:/data
+    tty: true
+  
+  # partition routing graph
+  # sudo docker run -t -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-partition /data/alt.osrm || echo "osrm-partition failed"
+  osrm-partition:
+    image: ghcr.io/project-osrm/osrm-backend
+    command: osrm-partition /data/alt.osrm
+    volumes:
+      - ./data:/data
+    tty: true
+  
+  # customize routing graph
+  # sudo docker run -t -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-customize /data/alt.osrm || echo "osrm-customize failed"
+  osrm-customize:
+    image: ghcr.io/project-osrm/osrm-backend
+    command: osrm-customize /data/alt.osrm
+    volumes:
+      - ./data:/data
+    tty: true
+
+  # start routing server
+  # sudo docker run -t -i -p 5000:5000 -v "${PWD}:/data" ghcr.io/project-osrm/osrm-backend osrm-routed --algorithm mld /data/alt.osrm
+  osrm-routed:
+    image: ghcr.io/project-osrm/osrm-backend
+    command: osrm-routed --algorithm mld /data/alt.osrm
+    ports:
+      - "8000:5000"
+    volumes:
+      - ./data:/data
+    tty: true
+  
+  # start frontend
+  # docker run -p 9966:9966 ghcr.io/project-osrm/osrm-frontend:latest
+  osrm-frontend:
+    image: ghcr.io/project-osrm/osrm-frontend:latest
+    ports:
+      - "9966:9966"
+    tty: true
+    environment:
+      - OSRM_BACKEND=http://localhost:8000
+    depends_on:
+      - osrm-routed
+    # networks:
+      # - osrm-net
+  
+  simulation:
+    build:
+      context: ./simulation
+      dockerfile: Dockerfile
+    command: python3 -u /simulation/traffic_simulation.py
+    # command: python3 -u /simulation/download_osm_data.py
+    # command: python3 -u /simulation/convert_osm_to_pbf.py /data/alt.osm /data/alt.osm.pbf
+    volumes:
+      - ./simulation:/simulation
+      - ./data:/data
