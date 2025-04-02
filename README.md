@@ -30,20 +30,49 @@ Next additions will be a simulation class for network topology, and multiple sim
 
 ## Setup and Usage
 
-1. **Prepare the Data**:
-   - Place your `.osm` or `.osm.pbf` file in the `data/` directory.
+### First-Time Setup
 
-2. **Build and Start Services**:
-   - Run the following command to start all services:
-     ```bash
-     docker-compose up --build
-     ```
+1. Build the Docker images:
+   ```bash
+   docker-compose build
+   ```
 
-3. **Access the Frontend**:
-   - Open your browser and navigate to `http://localhost:9966`.
+2. Download OSM data:
+   ```bash
+   docker-compose run simulation python3 -u /simulation/download_osm_data.py
+   ```
 
-4. **Run Traffic Simulation**:
-   - The simulation service runs automatically. You can modify the `command` in the `docker-compose.yml` file to run specific scripts.
+3. Convert OSM data to PBF format:
+   ```bash
+   docker-compose run simulation python3 -u /simulation/convert_osm_to_pbf.py /data/alt.osm /data/alt.osm.pbf
+   ```
+
+4. Extract the routing graph:
+   ```bash
+   docker-compose up osrm-extract
+   ```
+
+5. Partition the routing graph:
+   ```bash
+   docker-compose up osrm-partition
+   ```
+
+6. Customize the routing graph:
+   ```bash
+   docker-compose up osrm-customize
+   ```
+
+### Run Simulations
+
+1. Start the OSRM routing server:
+   ```bash
+   docker-compose up -d osrm-routed
+   ```
+
+2. Run the traffic simulation:
+   ```bash
+   docker-compose up simulation
+   ```
 
 ## Notes
 
