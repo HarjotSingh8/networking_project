@@ -55,9 +55,11 @@ services:
     build:
       context: ./simulation
       dockerfile: Dockerfile
-    command: python3 -u /simulation/traffic_simulation.py
+    command: python3 -u /simulation/main.py
+    # command: python3 -u /simulation/traffic_simulation.py
     # command: python3 -u /simulation/download_osm_data.py
     # command: python3 -u /simulation/convert_osm_to_pbf.py /data/alt.osm /data/alt.osm.pbf
     volumes:
+      - ./simulation_data:/simulation_data
       - ./simulation:/simulation
       - ./data:/data

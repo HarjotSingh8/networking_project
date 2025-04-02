@@ -1,16 +1,25 @@
 import time
 import math
+import random
 
 class NetworkSimulation:
-    def __init__(self, cars):
+    def __init__(self, cars, sim_co_ordinates, sim_params):
         """
         Initialize the network simulation with a list of cars.
 
         Args:
             cars (list): A list of car objects. Each car object should have at least
                          'id', 'position' (latitude, longitude), and 'timestamp'.
+                         The car object received contains 'offset' time and 'positions' data, and positions
         """
         self.cars = cars
+        self.sim_co_ordinates = sim_co_ordinates
+        self.sim_params = sim_params
+        self.init_cars()
+        self.timestamp = 0
+        self.cars_completed = 0
+        self.new_connections_made = 0
+        self.old_connections_dropped = 0
 
     def calculate_distance(self, pos1, pos2):
         """
@@ -27,66 +36,102 @@ class NetworkSimulation:
         lat1, lon1 = math.radians(pos1[0]), math.radians(pos1[1])
         lat2, lon2 = math.radians(pos2[0]), math.radians(pos2[1])
         dlat = lat2 - lat1
-        dlon = dlon2 - lon1
+        dlon = lon2 - lon1
 
         a = math.sin(dlat / 2) ** 2 + math.cos(lat1) * math.cos(lat2) * math.sin(dlon / 2) ** 2
         c = 2 * math.atan2(math.sqrt(a), math.sqrt(1 - a))
         return R * c
-
-    def simulate_communication(self, range_meters=100):
+    
+    def init_cars(self):
         """
-        Simulate communication between cars within a certain range.
-
-        Args:
-            range_meters (float): The communication range in meters.
-
-        Returns:
-            dict: A dictionary where keys are car IDs and values are lists of IDs
-                  of cars within communication range.
+        Initialize the cars with their positions and active status.
         """
-        communication_map = {}
+        for id, car in enumerate(self.cars):
+            car['active'] = False
+            car['completed'] = False  # Add 'completed' flag
+            car['id'] = id
+            car['position'] = (car['positions'][0]['position'][0], car['positions'][0]['position'][1])  # Fixed reference
+            car['network_connections'] = []
+
+    def simulate_car_vectors(self, car, time_interval):
+        """
+        Returns motion and location vector of the car.
+        """
+        # Filter position data up to the current simulation timestamp
+        relevant_positions = [pos for pos in car['positions'] if pos['timestamp'] <= self.timestamp]
+        last_positions = relevant_positions[-5:]  # Take the last 5 positions
+
+        if len(last_positions) < 2:
+            return (0, 0, 0)  # Return zero vector and speed if insufficient data
+
+        # Calculate the average vector
+        avg_vector = (0, 0)
+        for i in range(1, len(last_positions)):
+            avg_vector = (
+                avg_vector[0] + (last_positions[i]['position'][0] - last_positions[i-1]['position'][0]),
+                avg_vector[1] + (last_positions[i]['position'][1] - last_positions[i-1]['position'][1])
+            )
+        avg_vector = (avg_vector[0] / (len(last_positions) - 1), avg_vector[1] / (len(last_positions) - 1))
+
+        # Add random noise to the vector
+        noise = (random.uniform(-0.1, 0.1), random.uniform(-0.1, 0.1))
+        avg_vector = (avg_vector[0] + noise[0], avg_vector[1] + noise[1])
+
+        # Calculate the distance and speed
+        distance = self.calculate_distance(car['position'], last_positions[-1]['position'])
+        speed = distance / time_interval
+
+        return (avg_vector[0], avg_vector[1], speed)
+
+    def simulate_car_positions(self, time_interval):
+        """
+        Simulate positions of cars by picking positions from their position data.
+        """
         for car in self.cars:
-            car_id = car['id']
-            car_position = car['position']
-            communication_map[car_id] = []
+            # Check if the car should be active at the current simulation timestamp
+            if car['completed']:
+                continue  # Skip cars that have completed their routes
 
-            for other_car in self.cars:
-                if car_id == other_car['id']:
-                    continue
-                distance = self.calculate_distance(car_position, other_car['position'])
-                if distance <= range_meters:
-                    communication_map[car_id].append(other_car['id'])
+            if self.timestamp >= car['offset'] and self.timestamp < (car['offset'] + len(car['positions'])):
+                # Get the current position from the position data
+                current_position = car['positions'][int(self.timestamp - car['offset'])]  # Ensure index is an integer
+                car['position'] = (current_position['position'][0], current_position['position'][1])  # Fixed reference
+                car['active'] = True
+            else:
+                car['active'] = False
+                if self.timestamp >= (car['offset'] + len(car['positions'])):
+                    car['completed'] = True  # Mark car as completed
+                    self.cars_completed += 1
+                    print(f"{self.cars_completed} cars have completed their routes.")
 
-        return communication_map
-
-    def log_simulation(self, duration_seconds=10, interval_seconds=1):
+    def check_network(self):
         """
-        Log the communication simulation over a period of time.
+        Check the network connectivity of the cars.
+        This function should be implemented in subclasses.
+        """
+        raise NotImplementedError("This method should be overridden in subclasses.")
+
+    def run_simulation(self, time_interval=1):
+        """
+        Run the simulation for each car in the network.
 
         Args:
-            duration_seconds (int): Total duration of the simulation in seconds.
-            interval_seconds (int): Interval between each simulation step in seconds.
+            time_interval (int): Time interval in seconds for each simulation step.
         """
-        start_time = time.time()
-        while time.time() - start_time < duration_seconds:
-            communication_map = self.simulate_communication()
-            print(f"Communication Map at {time.time()}: {communication_map}")
-            time.sleep(interval_seconds)
+        # Update car positions based on the current timestamp
+        self.simulate_car_positions(time_interval)
 
-    def run_simulation_with_algorithm(self, algorithm, **kwargs):
-        """
-        Run the network simulation using a specified topology algorithm.
-
-        Args:
-            algorithm (callable): A function that implements the network topology algorithm.
-                                  It should accept a list of cars and additional parameters.
-            **kwargs: Additional parameters to pass to the algorithm.
-
-        Returns:
-            Any: The result of the algorithm execution.
-        """
-        if not callable(algorithm):
-            raise ValueError("The provided algorithm must be callable.")
-        
-        print(f"Running simulation with algorithm: {algorithm.__name__}")
-        return algorithm(self.cars, **kwargs)
+        # Run simulation till all cars have completed their positions
+        while any(not car['completed'] for car in self.cars):
+            self.check_network()
+            self.timestamp += time_interval
+            # time.sleep(time_interval)
+            self.simulate_car_positions(time_interval)
+            for car in self.cars:
+                if car['active']:
+                    # Update the car's position directly from the position data
+                    current_position = car['positions'][int(self.timestamp - car['offset'])]  # Ensure index is an integer
+                    car['position'] = (current_position['position'][0], current_position['position'][1])  # Fixed reference
+                    
+                    # Calculate the motion vector and speed for network topology
+                    car['motion_vector'] = self.simulate_car_vectors(car, time_interval)
