@@ -1,409 +1,900 @@
-{'timestamp': 1, 'cars_completed': 0, 'new_connections_made': 0, 'old_connections_dropped': 10, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 2, 'cars_completed': 0, 'new_connections_made': 2, 'old_connections_dropped': 13, 'active_connections': 0, 'active_cars': 10}
-{'timestamp': 3, 'cars_completed': 0, 'new_connections_made': 8, 'old_connections_dropped': 10, 'active_connections': 0, 'active_cars': 13}
-{'timestamp': 4, 'cars_completed': 0, 'new_connections_made': 2, 'old_connections_dropped': 12, 'active_connections': 0, 'active_cars': 16}
-{'timestamp': 5, 'cars_completed': 0, 'new_connections_made': 4, 'old_connections_dropped': 13, 'active_connections': 0, 'active_cars': 21}
-{'timestamp': 6, 'cars_completed': 0, 'new_connections_made': 12, 'old_connections_dropped': 19, 'active_connections': 0, 'active_cars': 27}
-{'timestamp': 7, 'cars_completed': 0, 'new_connections_made': 16, 'old_connections_dropped': 23, 'active_connections': 0, 'active_cars': 29}
-{'timestamp': 8, 'cars_completed': 0, 'new_connections_made': 5, 'old_connections_dropped': 11, 'active_connections': 0, 'active_cars': 31}
-{'timestamp': 9, 'cars_completed': 0, 'new_connections_made': 7, 'old_connections_dropped': 13, 'active_connections': 0, 'active_cars': 33}
-{'timestamp': 10, 'cars_completed': 0, 'new_connections_made': 7, 'old_connections_dropped': 11, 'active_connections': 0, 'active_cars': 38}
-{'timestamp': 11, 'cars_completed': 0, 'new_connections_made': 16, 'old_connections_dropped': 19, 'active_connections': 0, 'active_cars': 47}
-{'timestamp': 12, 'cars_completed': 0, 'new_connections_made': 28, 'old_connections_dropped': 44, 'active_connections': 0, 'active_cars': 52}
-{'timestamp': 13, 'cars_completed': 0, 'new_connections_made': 14, 'old_connections_dropped': 16, 'active_connections': 0, 'active_cars': 56}
-{'timestamp': 14, 'cars_completed': 0, 'new_connections_made': 13, 'old_connections_dropped': 20, 'active_connections': 0, 'active_cars': 60}
-{'timestamp': 15, 'cars_completed': 0, 'new_connections_made': 10, 'old_connections_dropped': 17, 'active_connections': 0, 'active_cars': 62}
-{'timestamp': 16, 'cars_completed': 0, 'new_connections_made': 9, 'old_connections_dropped': 14, 'active_connections': 0, 'active_cars': 65}
-{'timestamp': 17, 'cars_completed': 0, 'new_connections_made': 13, 'old_connections_dropped': 19, 'active_connections': 0, 'active_cars': 68}
-{'timestamp': 18, 'cars_completed': 0, 'new_connections_made': 16, 'old_connections_dropped': 27, 'active_connections': 0, 'active_cars': 68}
-{'timestamp': 19, 'cars_completed': 0, 'new_connections_made': 2, 'old_connections_dropped': 6, 'active_connections': 0, 'active_cars': 71}
-{'timestamp': 20, 'cars_completed': 0, 'new_connections_made': 12, 'old_connections_dropped': 18, 'active_connections': 0, 'active_cars': 72}
-{'timestamp': 21, 'cars_completed': 0, 'new_connections_made': 7, 'old_connections_dropped': 16, 'active_connections': 0, 'active_cars': 76}
-{'timestamp': 22, 'cars_completed': 0, 'new_connections_made': 12, 'old_connections_dropped': 21, 'active_connections': 0, 'active_cars': 78}
-{'timestamp': 23, 'cars_completed': 0, 'new_connections_made': 15, 'old_connections_dropped': 36, 'active_connections': 0, 'active_cars': 82}
-{'timestamp': 24, 'cars_completed': 0, 'new_connections_made': 13, 'old_connections_dropped': 23, 'active_connections': 0, 'active_cars': 90}
-{'timestamp': 25, 'cars_completed': 0, 'new_connections_made': 37, 'old_connections_dropped': 60, 'active_connections': 0, 'active_cars': 98}
-{'timestamp': 26, 'cars_completed': 0, 'new_connections_made': 30, 'old_connections_dropped': 38, 'active_connections': 0, 'active_cars': 105}
-{'timestamp': 27, 'cars_completed': 0, 'new_connections_made': 29, 'old_connections_dropped': 50, 'active_connections': 0, 'active_cars': 110}
-{'timestamp': 28, 'cars_completed': 0, 'new_connections_made': 20, 'old_connections_dropped': 40, 'active_connections': 0, 'active_cars': 115}
-{'timestamp': 29, 'cars_completed': 0, 'new_connections_made': 30, 'old_connections_dropped': 53, 'active_connections': 0, 'active_cars': 118}
-{'timestamp': 30, 'cars_completed': 1, 'new_connections_made': 14, 'old_connections_dropped': 30, 'active_connections': 0, 'active_cars': 122}
-{'timestamp': 31, 'cars_completed': 1, 'new_connections_made': 29, 'old_connections_dropped': 56, 'active_connections': 0, 'active_cars': 125}
-{'timestamp': 32, 'cars_completed': 1, 'new_connections_made': 15, 'old_connections_dropped': 34, 'active_connections': 0, 'active_cars': 128}
-{'timestamp': 33, 'cars_completed': 1, 'new_connections_made': 22, 'old_connections_dropped': 40, 'active_connections': 0, 'active_cars': 129}
-{'timestamp': 34, 'cars_completed': 1, 'new_connections_made': 14, 'old_connections_dropped': 29, 'active_connections': 0, 'active_cars': 131}
-{'timestamp': 35, 'cars_completed': 2, 'new_connections_made': 18, 'old_connections_dropped': 32, 'active_connections': 0, 'active_cars': 132}
-{'timestamp': 36, 'cars_completed': 3, 'new_connections_made': 16, 'old_connections_dropped': 27, 'active_connections': 0, 'active_cars': 136}
-{'timestamp': 37, 'cars_completed': 3, 'new_connections_made': 27, 'old_connections_dropped': 43, 'active_connections': 0, 'active_cars': 139}
-{'timestamp': 38, 'cars_completed': 3, 'new_connections_made': 19, 'old_connections_dropped': 40, 'active_connections': 0, 'active_cars': 143}
-{'timestamp': 39, 'cars_completed': 3, 'new_connections_made': 18, 'old_connections_dropped': 25, 'active_connections': 0, 'active_cars': 145}
-{'timestamp': 40, 'cars_completed': 3, 'new_connections_made': 15, 'old_connections_dropped': 36, 'active_connections': 0, 'active_cars': 148}
-{'timestamp': 41, 'cars_completed': 4, 'new_connections_made': 18, 'old_connections_dropped': 30, 'active_connections': 0, 'active_cars': 153}
-{'timestamp': 42, 'cars_completed': 4, 'new_connections_made': 34, 'old_connections_dropped': 55, 'active_connections': 0, 'active_cars': 156}
-{'timestamp': 43, 'cars_completed': 5, 'new_connections_made': 21, 'old_connections_dropped': 43, 'active_connections': 0, 'active_cars': 158}
-{'timestamp': 44, 'cars_completed': 6, 'new_connections_made': 21, 'old_connections_dropped': 41, 'active_connections': 0, 'active_cars': 160}
-{'timestamp': 45, 'cars_completed': 8, 'new_connections_made': 18, 'old_connections_dropped': 33, 'active_connections': 0, 'active_cars': 161}
-{'timestamp': 46, 'cars_completed': 8, 'new_connections_made': 23, 'old_connections_dropped': 47, 'active_connections': 0, 'active_cars': 167}
-{'timestamp': 47, 'cars_completed': 8, 'new_connections_made': 37, 'old_connections_dropped': 66, 'active_connections': 0, 'active_cars': 172}
-{'timestamp': 48, 'cars_completed': 8, 'new_connections_made': 40, 'old_connections_dropped': 71, 'active_connections': 0, 'active_cars': 180}
-{'timestamp': 49, 'cars_completed': 8, 'new_connections_made': 33, 'old_connections_dropped': 54, 'active_connections': 0, 'active_cars': 182}
-{'timestamp': 50, 'cars_completed': 8, 'new_connections_made': 23, 'old_connections_dropped': 42, 'active_connections': 0, 'active_cars': 187}
-{'timestamp': 51, 'cars_completed': 9, 'new_connections_made': 28, 'old_connections_dropped': 49, 'active_connections': 0, 'active_cars': 192}
-{'timestamp': 52, 'cars_completed': 9, 'new_connections_made': 46, 'old_connections_dropped': 70, 'active_connections': 0, 'active_cars': 199}
-{'timestamp': 53, 'cars_completed': 10, 'new_connections_made': 31, 'old_connections_dropped': 56, 'active_connections': 0, 'active_cars': 203}
-{'timestamp': 54, 'cars_completed': 11, 'new_connections_made': 44, 'old_connections_dropped': 89, 'active_connections': 0, 'active_cars': 208}
-{'timestamp': 55, 'cars_completed': 11, 'new_connections_made': 42, 'old_connections_dropped': 78, 'active_connections': 0, 'active_cars': 214}
-{'timestamp': 56, 'cars_completed': 11, 'new_connections_made': 50, 'old_connections_dropped': 95, 'active_connections': 0, 'active_cars': 216}
-{'timestamp': 57, 'cars_completed': 11, 'new_connections_made': 27, 'old_connections_dropped': 57, 'active_connections': 0, 'active_cars': 222}
-{'timestamp': 58, 'cars_completed': 11, 'new_connections_made': 45, 'old_connections_dropped': 83, 'active_connections': 0, 'active_cars': 224}
-{'timestamp': 59, 'cars_completed': 11, 'new_connections_made': 23, 'old_connections_dropped': 43, 'active_connections': 0, 'active_cars': 229}
-{'timestamp': 60, 'cars_completed': 11, 'new_connections_made': 54, 'old_connections_dropped': 92, 'active_connections': 0, 'active_cars': 231}
-{'timestamp': 61, 'cars_completed': 11, 'new_connections_made': 22, 'old_connections_dropped': 38, 'active_connections': 0, 'active_cars': 235}
-{'timestamp': 62, 'cars_completed': 12, 'new_connections_made': 45, 'old_connections_dropped': 88, 'active_connections': 0, 'active_cars': 238}
-{'timestamp': 63, 'cars_completed': 12, 'new_connections_made': 34, 'old_connections_dropped': 63, 'active_connections': 0, 'active_cars': 242}
-{'timestamp': 64, 'cars_completed': 12, 'new_connections_made': 40, 'old_connections_dropped': 76, 'active_connections': 0, 'active_cars': 245}
-{'timestamp': 65, 'cars_completed': 14, 'new_connections_made': 31, 'old_connections_dropped': 57, 'active_connections': 0, 'active_cars': 251}
-{'timestamp': 66, 'cars_completed': 15, 'new_connections_made': 48, 'old_connections_dropped': 83, 'active_connections': 0, 'active_cars': 255}
-{'timestamp': 67, 'cars_completed': 15, 'new_connections_made': 46, 'old_connections_dropped': 78, 'active_connections': 0, 'active_cars': 260}
-{'timestamp': 68, 'cars_completed': 19, 'new_connections_made': 35, 'old_connections_dropped': 62, 'active_connections': 0, 'active_cars': 260}
-{'timestamp': 69, 'cars_completed': 19, 'new_connections_made': 51, 'old_connections_dropped': 98, 'active_connections': 0, 'active_cars': 261}
-{'timestamp': 70, 'cars_completed': 21, 'new_connections_made': 43, 'old_connections_dropped': 85, 'active_connections': 0, 'active_cars': 264}
-{'timestamp': 71, 'cars_completed': 22, 'new_connections_made': 43, 'old_connections_dropped': 91, 'active_connections': 0, 'active_cars': 269}
-{'timestamp': 72, 'cars_completed': 22, 'new_connections_made': 69, 'old_connections_dropped': 125, 'active_connections': 0, 'active_cars': 273}
-{'timestamp': 73, 'cars_completed': 24, 'new_connections_made': 51, 'old_connections_dropped': 98, 'active_connections': 0, 'active_cars': 279}
-{'timestamp': 74, 'cars_completed': 25, 'new_connections_made': 56, 'old_connections_dropped': 106, 'active_connections': 0, 'active_cars': 285}
-{'timestamp': 75, 'cars_completed': 26, 'new_connections_made': 57, 'old_connections_dropped': 93, 'active_connections': 0, 'active_cars': 287}
-{'timestamp': 76, 'cars_completed': 28, 'new_connections_made': 37, 'old_connections_dropped': 74, 'active_connections': 0, 'active_cars': 287}
-{'timestamp': 77, 'cars_completed': 29, 'new_connections_made': 54, 'old_connections_dropped': 107, 'active_connections': 0, 'active_cars': 288}
-{'timestamp': 78, 'cars_completed': 32, 'new_connections_made': 47, 'old_connections_dropped': 88, 'active_connections': 0, 'active_cars': 291}
-{'timestamp': 79, 'cars_completed': 34, 'new_connections_made': 57, 'old_connections_dropped': 101, 'active_connections': 0, 'active_cars': 290}
-{'timestamp': 80, 'cars_completed': 34, 'new_connections_made': 36, 'old_connections_dropped': 77, 'active_connections': 0, 'active_cars': 293}
-{'timestamp': 81, 'cars_completed': 34, 'new_connections_made': 52, 'old_connections_dropped': 99, 'active_connections': 0, 'active_cars': 297}
-{'timestamp': 82, 'cars_completed': 36, 'new_connections_made': 50, 'old_connections_dropped': 94, 'active_connections': 0, 'active_cars': 298}
-{'timestamp': 83, 'cars_completed': 40, 'new_connections_made': 59, 'old_connections_dropped': 116, 'active_connections': 0, 'active_cars': 295}
-{'timestamp': 84, 'cars_completed': 41, 'new_connections_made': 38, 'old_connections_dropped': 88, 'active_connections': 0, 'active_cars': 298}
-{'timestamp': 85, 'cars_completed': 42, 'new_connections_made': 57, 'old_connections_dropped': 104, 'active_connections': 0, 'active_cars': 304}
-{'timestamp': 86, 'cars_completed': 46, 'new_connections_made': 60, 'old_connections_dropped': 115, 'active_connections': 0, 'active_cars': 304}
-{'timestamp': 87, 'cars_completed': 49, 'new_connections_made': 47, 'old_connections_dropped': 97, 'active_connections': 0, 'active_cars': 304}
-{'timestamp': 88, 'cars_completed': 50, 'new_connections_made': 39, 'old_connections_dropped': 82, 'active_connections': 0, 'active_cars': 308}
-{'timestamp': 89, 'cars_completed': 51, 'new_connections_made': 46, 'old_connections_dropped': 86, 'active_connections': 0, 'active_cars': 313}
-{'timestamp': 90, 'cars_completed': 51, 'new_connections_made': 53, 'old_connections_dropped': 95, 'active_connections': 0, 'active_cars': 315}
-{'timestamp': 91, 'cars_completed': 52, 'new_connections_made': 46, 'old_connections_dropped': 93, 'active_connections': 0, 'active_cars': 318}
-{'timestamp': 92, 'cars_completed': 54, 'new_connections_made': 56, 'old_connections_dropped': 112, 'active_connections': 0, 'active_cars': 319}
-{'timestamp': 93, 'cars_completed': 56, 'new_connections_made': 68, 'old_connections_dropped': 129, 'active_connections': 0, 'active_cars': 319}
-{'timestamp': 94, 'cars_completed': 58, 'new_connections_made': 47, 'old_connections_dropped': 97, 'active_connections': 0, 'active_cars': 322}
-{'timestamp': 95, 'cars_completed': 60, 'new_connections_made': 66, 'old_connections_dropped': 113, 'active_connections': 0, 'active_cars': 325}
-{'timestamp': 96, 'cars_completed': 64, 'new_connections_made': 56, 'old_connections_dropped': 114, 'active_connections': 0, 'active_cars': 324}
-{'timestamp': 97, 'cars_completed': 66, 'new_connections_made': 57, 'old_connections_dropped': 115, 'active_connections': 0, 'active_cars': 325}
-{'timestamp': 98, 'cars_completed': 68, 'new_connections_made': 50, 'old_connections_dropped': 99, 'active_connections': 0, 'active_cars': 325}
-{'timestamp': 99, 'cars_completed': 70, 'new_connections_made': 56, 'old_connections_dropped': 116, 'active_connections': 0, 'active_cars': 326}
-{'timestamp': 100, 'cars_completed': 72, 'new_connections_made': 51, 'old_connections_dropped': 108, 'active_connections': 0, 'active_cars': 330}
-{'timestamp': 101, 'cars_completed': 73, 'new_connections_made': 117, 'old_connections_dropped': 174, 'active_connections': 0, 'active_cars': 333}
-{'timestamp': 102, 'cars_completed': 76, 'new_connections_made': 69, 'old_connections_dropped': 136, 'active_connections': 0, 'active_cars': 334}
-{'timestamp': 103, 'cars_completed': 82, 'new_connections_made': 44, 'old_connections_dropped': 95, 'active_connections': 0, 'active_cars': 333}
-{'timestamp': 104, 'cars_completed': 83, 'new_connections_made': 63, 'old_connections_dropped': 135, 'active_connections': 0, 'active_cars': 339}
-{'timestamp': 105, 'cars_completed': 83, 'new_connections_made': 75, 'old_connections_dropped': 132, 'active_connections': 0, 'active_cars': 345}
-{'timestamp': 106, 'cars_completed': 89, 'new_connections_made': 68, 'old_connections_dropped': 133, 'active_connections': 0, 'active_cars': 343}
-{'timestamp': 107, 'cars_completed': 91, 'new_connections_made': 75, 'old_connections_dropped': 132, 'active_connections': 0, 'active_cars': 346}
-{'timestamp': 108, 'cars_completed': 94, 'new_connections_made': 53, 'old_connections_dropped': 104, 'active_connections': 0, 'active_cars': 344}
-{'timestamp': 109, 'cars_completed': 98, 'new_connections_made': 41, 'old_connections_dropped': 86, 'active_connections': 0, 'active_cars': 344}
-{'timestamp': 110, 'cars_completed': 100, 'new_connections_made': 43, 'old_connections_dropped': 95, 'active_connections': 0, 'active_cars': 345}
-{'timestamp': 111, 'cars_completed': 102, 'new_connections_made': 48, 'old_connections_dropped': 90, 'active_connections': 0, 'active_cars': 348}
-{'timestamp': 112, 'cars_completed': 105, 'new_connections_made': 58, 'old_connections_dropped': 103, 'active_connections': 0, 'active_cars': 350}
-{'timestamp': 113, 'cars_completed': 108, 'new_connections_made': 56, 'old_connections_dropped': 113, 'active_connections': 0, 'active_cars': 350}
-{'timestamp': 114, 'cars_completed': 111, 'new_connections_made': 54, 'old_connections_dropped': 107, 'active_connections': 0, 'active_cars': 350}
-{'timestamp': 115, 'cars_completed': 114, 'new_connections_made': 55, 'old_connections_dropped': 108, 'active_connections': 0, 'active_cars': 350}
-{'timestamp': 116, 'cars_completed': 117, 'new_connections_made': 56, 'old_connections_dropped': 99, 'active_connections': 0, 'active_cars': 353}
-{'timestamp': 117, 'cars_completed': 119, 'new_connections_made': 67, 'old_connections_dropped': 109, 'active_connections': 0, 'active_cars': 357}
-{'timestamp': 118, 'cars_completed': 126, 'new_connections_made': 66, 'old_connections_dropped': 134, 'active_connections': 0, 'active_cars': 355}
-{'timestamp': 119, 'cars_completed': 132, 'new_connections_made': 67, 'old_connections_dropped': 137, 'active_connections': 0, 'active_cars': 355}
-{'timestamp': 120, 'cars_completed': 139, 'new_connections_made': 97, 'old_connections_dropped': 167, 'active_connections': 0, 'active_cars': 354}
-{'timestamp': 121, 'cars_completed': 141, 'new_connections_made': 88, 'old_connections_dropped': 146, 'active_connections': 0, 'active_cars': 355}
-{'timestamp': 122, 'cars_completed': 143, 'new_connections_made': 55, 'old_connections_dropped': 107, 'active_connections': 0, 'active_cars': 354}
-{'timestamp': 123, 'cars_completed': 149, 'new_connections_made': 41, 'old_connections_dropped': 90, 'active_connections': 0, 'active_cars': 348}
-{'timestamp': 124, 'cars_completed': 154, 'new_connections_made': 62, 'old_connections_dropped': 121, 'active_connections': 0, 'active_cars': 348}
-{'timestamp': 125, 'cars_completed': 157, 'new_connections_made': 75, 'old_connections_dropped': 139, 'active_connections': 0, 'active_cars': 348}
-{'timestamp': 126, 'cars_completed': 158, 'new_connections_made': 58, 'old_connections_dropped': 112, 'active_connections': 0, 'active_cars': 353}
-{'timestamp': 127, 'cars_completed': 161, 'new_connections_made': 68, 'old_connections_dropped': 134, 'active_connections': 0, 'active_cars': 356}
-{'timestamp': 128, 'cars_completed': 165, 'new_connections_made': 57, 'old_connections_dropped': 112, 'active_connections': 0, 'active_cars': 357}
-{'timestamp': 129, 'cars_completed': 168, 'new_connections_made': 57, 'old_connections_dropped': 107, 'active_connections': 0, 'active_cars': 356}
-{'timestamp': 130, 'cars_completed': 168, 'new_connections_made': 67, 'old_connections_dropped': 134, 'active_connections': 0, 'active_cars': 364}
-{'timestamp': 131, 'cars_completed': 174, 'new_connections_made': 59, 'old_connections_dropped': 109, 'active_connections': 0, 'active_cars': 361}
-{'timestamp': 132, 'cars_completed': 176, 'new_connections_made': 91, 'old_connections_dropped': 156, 'active_connections': 0, 'active_cars': 364}
-{'timestamp': 133, 'cars_completed': 180, 'new_connections_made': 75, 'old_connections_dropped': 145, 'active_connections': 0, 'active_cars': 365}
-{'timestamp': 134, 'cars_completed': 181, 'new_connections_made': 61, 'old_connections_dropped': 115, 'active_connections': 0, 'active_cars': 367}
-{'timestamp': 135, 'cars_completed': 183, 'new_connections_made': 70, 'old_connections_dropped': 142, 'active_connections': 0, 'active_cars': 374}
-{'timestamp': 136, 'cars_completed': 186, 'new_connections_made': 70, 'old_connections_dropped': 125, 'active_connections': 0, 'active_cars': 377}
-{'timestamp': 137, 'cars_completed': 192, 'new_connections_made': 80, 'old_connections_dropped': 147, 'active_connections': 0, 'active_cars': 378}
-{'timestamp': 138, 'cars_completed': 195, 'new_connections_made': 142, 'old_connections_dropped': 220, 'active_connections': 0, 'active_cars': 383}
-{'timestamp': 139, 'cars_completed': 197, 'new_connections_made': 78, 'old_connections_dropped': 156, 'active_connections': 0, 'active_cars': 384}
-{'timestamp': 140, 'cars_completed': 202, 'new_connections_made': 59, 'old_connections_dropped': 116, 'active_connections': 0, 'active_cars': 382}
-{'timestamp': 141, 'cars_completed': 204, 'new_connections_made': 102, 'old_connections_dropped': 176, 'active_connections': 0, 'active_cars': 385}
-{'timestamp': 142, 'cars_completed': 207, 'new_connections_made': 63, 'old_connections_dropped': 116, 'active_connections': 0, 'active_cars': 387}
-{'timestamp': 143, 'cars_completed': 213, 'new_connections_made': 99, 'old_connections_dropped': 163, 'active_connections': 0, 'active_cars': 389}
-{'timestamp': 144, 'cars_completed': 215, 'new_connections_made': 132, 'old_connections_dropped': 217, 'active_connections': 0, 'active_cars': 389}
-{'timestamp': 145, 'cars_completed': 221, 'new_connections_made': 61, 'old_connections_dropped': 114, 'active_connections': 0, 'active_cars': 387}
-{'timestamp': 146, 'cars_completed': 224, 'new_connections_made': 62, 'old_connections_dropped': 132, 'active_connections': 0, 'active_cars': 388}
-{'timestamp': 147, 'cars_completed': 227, 'new_connections_made': 89, 'old_connections_dropped': 150, 'active_connections': 0, 'active_cars': 391}
-{'timestamp': 148, 'cars_completed': 230, 'new_connections_made': 75, 'old_connections_dropped': 146, 'active_connections': 0, 'active_cars': 391}
-{'timestamp': 149, 'cars_completed': 233, 'new_connections_made': 46, 'old_connections_dropped': 97, 'active_connections': 0, 'active_cars': 393}
-{'timestamp': 150, 'cars_completed': 236, 'new_connections_made': 80, 'old_connections_dropped': 156, 'active_connections': 0, 'active_cars': 395}
-{'timestamp': 151, 'cars_completed': 240, 'new_connections_made': 64, 'old_connections_dropped': 133, 'active_connections': 0, 'active_cars': 395}
-{'timestamp': 152, 'cars_completed': 244, 'new_connections_made': 73, 'old_connections_dropped': 145, 'active_connections': 0, 'active_cars': 400}
-{'timestamp': 153, 'cars_completed': 248, 'new_connections_made': 105, 'old_connections_dropped': 204, 'active_connections': 0, 'active_cars': 401}
-{'timestamp': 154, 'cars_completed': 253, 'new_connections_made': 116, 'old_connections_dropped': 208, 'active_connections': 0, 'active_cars': 400}
-{'timestamp': 155, 'cars_completed': 255, 'new_connections_made': 83, 'old_connections_dropped': 163, 'active_connections': 0, 'active_cars': 404}
-{'timestamp': 156, 'cars_completed': 260, 'new_connections_made': 83, 'old_connections_dropped': 159, 'active_connections': 0, 'active_cars': 404}
-{'timestamp': 157, 'cars_completed': 261, 'new_connections_made': 76, 'old_connections_dropped': 155, 'active_connections': 0, 'active_cars': 408}
-{'timestamp': 158, 'cars_completed': 265, 'new_connections_made': 65, 'old_connections_dropped': 129, 'active_connections': 0, 'active_cars': 406}
-{'timestamp': 159, 'cars_completed': 270, 'new_connections_made': 86, 'old_connections_dropped': 174, 'active_connections': 0, 'active_cars': 405}
-{'timestamp': 160, 'cars_completed': 273, 'new_connections_made': 86, 'old_connections_dropped': 181, 'active_connections': 0, 'active_cars': 407}
-{'timestamp': 161, 'cars_completed': 278, 'new_connections_made': 76, 'old_connections_dropped': 145, 'active_connections': 0, 'active_cars': 406}
-{'timestamp': 162, 'cars_completed': 281, 'new_connections_made': 80, 'old_connections_dropped': 161, 'active_connections': 0, 'active_cars': 410}
-{'timestamp': 163, 'cars_completed': 285, 'new_connections_made': 83, 'old_connections_dropped': 162, 'active_connections': 0, 'active_cars': 408}
-{'timestamp': 164, 'cars_completed': 287, 'new_connections_made': 72, 'old_connections_dropped': 155, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 165, 'cars_completed': 292, 'new_connections_made': 76, 'old_connections_dropped': 145, 'active_connections': 0, 'active_cars': 411}
-{'timestamp': 166, 'cars_completed': 294, 'new_connections_made': 75, 'old_connections_dropped': 167, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 167, 'cars_completed': 297, 'new_connections_made': 76, 'old_connections_dropped': 143, 'active_connections': 0, 'active_cars': 414}
-{'timestamp': 168, 'cars_completed': 301, 'new_connections_made': 58, 'old_connections_dropped': 123, 'active_connections': 0, 'active_cars': 415}
-{'timestamp': 169, 'cars_completed': 301, 'new_connections_made': 112, 'old_connections_dropped': 177, 'active_connections': 0, 'active_cars': 420}
-{'timestamp': 170, 'cars_completed': 302, 'new_connections_made': 67, 'old_connections_dropped': 120, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 171, 'cars_completed': 308, 'new_connections_made': 81, 'old_connections_dropped': 155, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 172, 'cars_completed': 309, 'new_connections_made': 88, 'old_connections_dropped': 191, 'active_connections': 0, 'active_cars': 423}
-{'timestamp': 173, 'cars_completed': 309, 'new_connections_made': 62, 'old_connections_dropped': 123, 'active_connections': 0, 'active_cars': 425}
-{'timestamp': 174, 'cars_completed': 316, 'new_connections_made': 68, 'old_connections_dropped': 134, 'active_connections': 0, 'active_cars': 419}
-{'timestamp': 175, 'cars_completed': 320, 'new_connections_made': 75, 'old_connections_dropped': 140, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 176, 'cars_completed': 324, 'new_connections_made': 69, 'old_connections_dropped': 144, 'active_connections': 0, 'active_cars': 419}
-{'timestamp': 177, 'cars_completed': 327, 'new_connections_made': 117, 'old_connections_dropped': 190, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 178, 'cars_completed': 334, 'new_connections_made': 69, 'old_connections_dropped': 139, 'active_connections': 0, 'active_cars': 415}
-{'timestamp': 179, 'cars_completed': 341, 'new_connections_made': 80, 'old_connections_dropped': 178, 'active_connections': 0, 'active_cars': 414}
-{'timestamp': 180, 'cars_completed': 346, 'new_connections_made': 108, 'old_connections_dropped': 182, 'active_connections': 0, 'active_cars': 414}
-{'timestamp': 181, 'cars_completed': 350, 'new_connections_made': 63, 'old_connections_dropped': 133, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 182, 'cars_completed': 357, 'new_connections_made': 56, 'old_connections_dropped': 119, 'active_connections': 0, 'active_cars': 409}
-{'timestamp': 183, 'cars_completed': 363, 'new_connections_made': 60, 'old_connections_dropped': 128, 'active_connections': 0, 'active_cars': 405}
-{'timestamp': 184, 'cars_completed': 370, 'new_connections_made': 87, 'old_connections_dropped': 164, 'active_connections': 0, 'active_cars': 404}
-{'timestamp': 185, 'cars_completed': 373, 'new_connections_made': 161, 'old_connections_dropped': 240, 'active_connections': 0, 'active_cars': 405}
-{'timestamp': 186, 'cars_completed': 376, 'new_connections_made': 67, 'old_connections_dropped': 134, 'active_connections': 0, 'active_cars': 407}
-{'timestamp': 187, 'cars_completed': 380, 'new_connections_made': 71, 'old_connections_dropped': 137, 'active_connections': 0, 'active_cars': 408}
-{'timestamp': 188, 'cars_completed': 382, 'new_connections_made': 67, 'old_connections_dropped': 137, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 189, 'cars_completed': 390, 'new_connections_made': 79, 'old_connections_dropped': 156, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 190, 'cars_completed': 395, 'new_connections_made': 85, 'old_connections_dropped': 180, 'active_connections': 0, 'active_cars': 414}
-{'timestamp': 191, 'cars_completed': 398, 'new_connections_made': 75, 'old_connections_dropped': 153, 'active_connections': 0, 'active_cars': 417}
-{'timestamp': 192, 'cars_completed': 405, 'new_connections_made': 123, 'old_connections_dropped': 192, 'active_connections': 0, 'active_cars': 412}
-{'timestamp': 193, 'cars_completed': 405, 'new_connections_made': 89, 'old_connections_dropped': 146, 'active_connections': 0, 'active_cars': 416}
-{'timestamp': 194, 'cars_completed': 408, 'new_connections_made': 78, 'old_connections_dropped': 154, 'active_connections': 0, 'active_cars': 417}
-{'timestamp': 195, 'cars_completed': 411, 'new_connections_made': 106, 'old_connections_dropped': 148, 'active_connections': 0, 'active_cars': 420}
-{'timestamp': 196, 'cars_completed': 415, 'new_connections_made': 73, 'old_connections_dropped': 142, 'active_connections': 0, 'active_cars': 424}
-{'timestamp': 197, 'cars_completed': 417, 'new_connections_made': 78, 'old_connections_dropped': 153, 'active_connections': 0, 'active_cars': 425}
-{'timestamp': 198, 'cars_completed': 421, 'new_connections_made': 65, 'old_connections_dropped': 131, 'active_connections': 0, 'active_cars': 423}
-{'timestamp': 199, 'cars_completed': 425, 'new_connections_made': 67, 'old_connections_dropped': 140, 'active_connections': 0, 'active_cars': 424}
-{'timestamp': 200, 'cars_completed': 427, 'new_connections_made': 122, 'old_connections_dropped': 191, 'active_connections': 0, 'active_cars': 425}
-{'timestamp': 201, 'cars_completed': 432, 'new_connections_made': 62, 'old_connections_dropped': 120, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 202, 'cars_completed': 436, 'new_connections_made': 59, 'old_connections_dropped': 134, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 203, 'cars_completed': 439, 'new_connections_made': 73, 'old_connections_dropped': 137, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 204, 'cars_completed': 444, 'new_connections_made': 62, 'old_connections_dropped': 133, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 205, 'cars_completed': 452, 'new_connections_made': 117, 'old_connections_dropped': 207, 'active_connections': 0, 'active_cars': 416}
-{'timestamp': 206, 'cars_completed': 455, 'new_connections_made': 59, 'old_connections_dropped': 135, 'active_connections': 0, 'active_cars': 421}
-{'timestamp': 207, 'cars_completed': 455, 'new_connections_made': 83, 'old_connections_dropped': 164, 'active_connections': 0, 'active_cars': 423}
-{'timestamp': 208, 'cars_completed': 460, 'new_connections_made': 83, 'old_connections_dropped': 162, 'active_connections': 0, 'active_cars': 420}
-{'timestamp': 209, 'cars_completed': 465, 'new_connections_made': 81, 'old_connections_dropped': 170, 'active_connections': 0, 'active_cars': 416}
-{'timestamp': 210, 'cars_completed': 469, 'new_connections_made': 91, 'old_connections_dropped': 148, 'active_connections': 0, 'active_cars': 418}
-{'timestamp': 211, 'cars_completed': 473, 'new_connections_made': 76, 'old_connections_dropped': 156, 'active_connections': 0, 'active_cars': 416}
-{'timestamp': 212, 'cars_completed': 481, 'new_connections_made': 64, 'old_connections_dropped': 136, 'active_connections': 0, 'active_cars': 411}
-{'timestamp': 213, 'cars_completed': 484, 'new_connections_made': 71, 'old_connections_dropped': 157, 'active_connections': 0, 'active_cars': 409}
-{'timestamp': 214, 'cars_completed': 485, 'new_connections_made': 52, 'old_connections_dropped': 114, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 215, 'cars_completed': 487, 'new_connections_made': 71, 'old_connections_dropped': 139, 'active_connections': 0, 'active_cars': 415}
-{'timestamp': 216, 'cars_completed': 490, 'new_connections_made': 55, 'old_connections_dropped': 103, 'active_connections': 0, 'active_cars': 414}
-{'timestamp': 217, 'cars_completed': 492, 'new_connections_made': 55, 'old_connections_dropped': 118, 'active_connections': 0, 'active_cars': 415}
-{'timestamp': 218, 'cars_completed': 499, 'new_connections_made': 62, 'old_connections_dropped': 120, 'active_connections': 0, 'active_cars': 412}
-{'timestamp': 219, 'cars_completed': 502, 'new_connections_made': 65, 'old_connections_dropped': 118, 'active_connections': 0, 'active_cars': 418}
-{'timestamp': 220, 'cars_completed': 510, 'new_connections_made': 76, 'old_connections_dropped': 142, 'active_connections': 0, 'active_cars': 413}
-{'timestamp': 221, 'cars_completed': 518, 'new_connections_made': 109, 'old_connections_dropped': 193, 'active_connections': 0, 'active_cars': 409}
-{'timestamp': 222, 'cars_completed': 524, 'new_connections_made': 76, 'old_connections_dropped': 169, 'active_connections': 0, 'active_cars': 406}
-{'timestamp': 223, 'cars_completed': 528, 'new_connections_made': 71, 'old_connections_dropped': 150, 'active_connections': 0, 'active_cars': 407}
-{'timestamp': 224, 'cars_completed': 537, 'new_connections_made': 67, 'old_connections_dropped': 135, 'active_connections': 0, 'active_cars': 402}
-{'timestamp': 225, 'cars_completed': 545, 'new_connections_made': 164, 'old_connections_dropped': 233, 'active_connections': 0, 'active_cars': 396}
-{'timestamp': 226, 'cars_completed': 546, 'new_connections_made': 59, 'old_connections_dropped': 135, 'active_connections': 0, 'active_cars': 399}
-{'timestamp': 227, 'cars_completed': 548, 'new_connections_made': 78, 'old_connections_dropped': 149, 'active_connections': 0, 'active_cars': 400}
-{'timestamp': 228, 'cars_completed': 557, 'new_connections_made': 61, 'old_connections_dropped': 120, 'active_connections': 0, 'active_cars': 394}
-{'timestamp': 229, 'cars_completed': 564, 'new_connections_made': 95, 'old_connections_dropped': 189, 'active_connections': 0, 'active_cars': 395}
-{'timestamp': 230, 'cars_completed': 570, 'new_connections_made': 78, 'old_connections_dropped': 151, 'active_connections': 0, 'active_cars': 395}
-{'timestamp': 231, 'cars_completed': 573, 'new_connections_made': 75, 'old_connections_dropped': 152, 'active_connections': 0, 'active_cars': 395}
-{'timestamp': 232, 'cars_completed': 580, 'new_connections_made': 64, 'old_connections_dropped': 123, 'active_connections': 0, 'active_cars': 391}
-{'timestamp': 233, 'cars_completed': 581, 'new_connections_made': 98, 'old_connections_dropped': 162, 'active_connections': 0, 'active_cars': 395}
-{'timestamp': 234, 'cars_completed': 586, 'new_connections_made': 79, 'old_connections_dropped': 154, 'active_connections': 0, 'active_cars': 394}
-{'timestamp': 235, 'cars_completed': 587, 'new_connections_made': 82, 'old_connections_dropped': 126, 'active_connections': 0, 'active_cars': 398}
-{'timestamp': 236, 'cars_completed': 592, 'new_connections_made': 58, 'old_connections_dropped': 111, 'active_connections': 0, 'active_cars': 396}
-{'timestamp': 237, 'cars_completed': 599, 'new_connections_made': 66, 'old_connections_dropped': 135, 'active_connections': 0, 'active_cars': 392}
-{'timestamp': 238, 'cars_completed': 604, 'new_connections_made': 83, 'old_connections_dropped': 167, 'active_connections': 0, 'active_cars': 392}
-{'timestamp': 239, 'cars_completed': 609, 'new_connections_made': 103, 'old_connections_dropped': 154, 'active_connections': 0, 'active_cars': 391}
-{'timestamp': 240, 'cars_completed': 611, 'new_connections_made': 57, 'old_connections_dropped': 119, 'active_connections': 0, 'active_cars': 389}
-{'timestamp': 241, 'cars_completed': 616, 'new_connections_made': 61, 'old_connections_dropped': 124, 'active_connections': 0, 'active_cars': 384}
-{'timestamp': 242, 'cars_completed': 623, 'new_connections_made': 62, 'old_connections_dropped': 142, 'active_connections': 0, 'active_cars': 377}
-{'timestamp': 243, 'cars_completed': 627, 'new_connections_made': 63, 'old_connections_dropped': 130, 'active_connections': 0, 'active_cars': 373}
-{'timestamp': 244, 'cars_completed': 631, 'new_connections_made': 54, 'old_connections_dropped': 114, 'active_connections': 0, 'active_cars': 369}
-{'timestamp': 245, 'cars_completed': 634, 'new_connections_made': 59, 'old_connections_dropped': 127, 'active_connections': 0, 'active_cars': 366}
-{'timestamp': 246, 'cars_completed': 639, 'new_connections_made': 47, 'old_connections_dropped': 101, 'active_connections': 0, 'active_cars': 361}
-{'timestamp': 247, 'cars_completed': 643, 'new_connections_made': 94, 'old_connections_dropped': 176, 'active_connections': 0, 'active_cars': 357}
-{'timestamp': 248, 'cars_completed': 647, 'new_connections_made': 54, 'old_connections_dropped': 122, 'active_connections': 0, 'active_cars': 353}
-{'timestamp': 249, 'cars_completed': 651, 'new_connections_made': 78, 'old_connections_dropped': 138, 'active_connections': 0, 'active_cars': 349}
-{'timestamp': 250, 'cars_completed': 657, 'new_connections_made': 47, 'old_connections_dropped': 106, 'active_connections': 0, 'active_cars': 343}
-{'timestamp': 251, 'cars_completed': 660, 'new_connections_made': 38, 'old_connections_dropped': 94, 'active_connections': 0, 'active_cars': 340}
-{'timestamp': 252, 'cars_completed': 660, 'new_connections_made': 31, 'old_connections_dropped': 72, 'active_connections': 0, 'active_cars': 340}
-{'timestamp': 253, 'cars_completed': 663, 'new_connections_made': 31, 'old_connections_dropped': 62, 'active_connections': 0, 'active_cars': 337}
-{'timestamp': 254, 'cars_completed': 666, 'new_connections_made': 51, 'old_connections_dropped': 103, 'active_connections': 0, 'active_cars': 334}
-{'timestamp': 255, 'cars_completed': 669, 'new_connections_made': 48, 'old_connections_dropped': 106, 'active_connections': 0, 'active_cars': 331}
-{'timestamp': 256, 'cars_completed': 675, 'new_connections_made': 79, 'old_connections_dropped': 117, 'active_connections': 0, 'active_cars': 325}
-{'timestamp': 257, 'cars_completed': 678, 'new_connections_made': 56, 'old_connections_dropped': 114, 'active_connections': 0, 'active_cars': 322}
-{'timestamp': 258, 'cars_completed': 683, 'new_connections_made': 58, 'old_connections_dropped': 124, 'active_connections': 0, 'active_cars': 317}
-{'timestamp': 259, 'cars_completed': 686, 'new_connections_made': 45, 'old_connections_dropped': 110, 'active_connections': 0, 'active_cars': 314}
-{'timestamp': 260, 'cars_completed': 690, 'new_connections_made': 61, 'old_connections_dropped': 113, 'active_connections': 0, 'active_cars': 310}
-{'timestamp': 261, 'cars_completed': 697, 'new_connections_made': 42, 'old_connections_dropped': 102, 'active_connections': 0, 'active_cars': 303}
-{'timestamp': 262, 'cars_completed': 700, 'new_connections_made': 50, 'old_connections_dropped': 115, 'active_connections': 0, 'active_cars': 300}
-{'timestamp': 263, 'cars_completed': 705, 'new_connections_made': 45, 'old_connections_dropped': 98, 'active_connections': 0, 'active_cars': 295}
-{'timestamp': 264, 'cars_completed': 708, 'new_connections_made': 43, 'old_connections_dropped': 85, 'active_connections': 0, 'active_cars': 292}
-{'timestamp': 265, 'cars_completed': 711, 'new_connections_made': 40, 'old_connections_dropped': 87, 'active_connections': 0, 'active_cars': 289}
-{'timestamp': 266, 'cars_completed': 712, 'new_connections_made': 41, 'old_connections_dropped': 92, 'active_connections': 0, 'active_cars': 288}
-{'timestamp': 267, 'cars_completed': 713, 'new_connections_made': 37, 'old_connections_dropped': 75, 'active_connections': 0, 'active_cars': 287}
-{'timestamp': 268, 'cars_completed': 715, 'new_connections_made': 42, 'old_connections_dropped': 95, 'active_connections': 0, 'active_cars': 285}
-{'timestamp': 269, 'cars_completed': 719, 'new_connections_made': 44, 'old_connections_dropped': 97, 'active_connections': 0, 'active_cars': 281}
-{'timestamp': 270, 'cars_completed': 722, 'new_connections_made': 53, 'old_connections_dropped': 109, 'active_connections': 0, 'active_cars': 278}
-{'timestamp': 271, 'cars_completed': 725, 'new_connections_made': 41, 'old_connections_dropped': 89, 'active_connections': 0, 'active_cars': 275}
-{'timestamp': 272, 'cars_completed': 733, 'new_connections_made': 47, 'old_connections_dropped': 85, 'active_connections': 0, 'active_cars': 267}
-{'timestamp': 273, 'cars_completed': 738, 'new_connections_made': 31, 'old_connections_dropped': 85, 'active_connections': 0, 'active_cars': 262}
-{'timestamp': 274, 'cars_completed': 744, 'new_connections_made': 62, 'old_connections_dropped': 116, 'active_connections': 0, 'active_cars': 256}
-{'timestamp': 275, 'cars_completed': 748, 'new_connections_made': 57, 'old_connections_dropped': 102, 'active_connections': 0, 'active_cars': 252}
-{'timestamp': 276, 'cars_completed': 752, 'new_connections_made': 45, 'old_connections_dropped': 85, 'active_connections': 0, 'active_cars': 248}
-{'timestamp': 277, 'cars_completed': 761, 'new_connections_made': 29, 'old_connections_dropped': 68, 'active_connections': 0, 'active_cars': 239}
-{'timestamp': 278, 'cars_completed': 765, 'new_connections_made': 86, 'old_connections_dropped': 147, 'active_connections': 0, 'active_cars': 235}
-{'timestamp': 279, 'cars_completed': 768, 'new_connections_made': 26, 'old_connections_dropped': 56, 'active_connections': 0, 'active_cars': 232}
-{'timestamp': 280, 'cars_completed': 772, 'new_connections_made': 14, 'old_connections_dropped': 37, 'active_connections': 0, 'active_cars': 228}
-{'timestamp': 281, 'cars_completed': 777, 'new_connections_made': 26, 'old_connections_dropped': 64, 'active_connections': 0, 'active_cars': 223}
-{'timestamp': 282, 'cars_completed': 781, 'new_connections_made': 38, 'old_connections_dropped': 82, 'active_connections': 0, 'active_cars': 219}
-{'timestamp': 283, 'cars_completed': 788, 'new_connections_made': 24, 'old_connections_dropped': 53, 'active_connections': 0, 'active_cars': 212}
-{'timestamp': 284, 'cars_completed': 794, 'new_connections_made': 54, 'old_connections_dropped': 94, 'active_connections': 0, 'active_cars': 206}
-{'timestamp': 285, 'cars_completed': 795, 'new_connections_made': 28, 'old_connections_dropped': 76, 'active_connections': 0, 'active_cars': 205}
-{'timestamp': 286, 'cars_completed': 800, 'new_connections_made': 37, 'old_connections_dropped': 58, 'active_connections': 0, 'active_cars': 200}
-{'timestamp': 287, 'cars_completed': 802, 'new_connections_made': 30, 'old_connections_dropped': 66, 'active_connections': 0, 'active_cars': 198}
-{'timestamp': 288, 'cars_completed': 804, 'new_connections_made': 54, 'old_connections_dropped': 91, 'active_connections': 0, 'active_cars': 196}
-{'timestamp': 289, 'cars_completed': 809, 'new_connections_made': 27, 'old_connections_dropped': 53, 'active_connections': 0, 'active_cars': 191}
-{'timestamp': 290, 'cars_completed': 813, 'new_connections_made': 49, 'old_connections_dropped': 86, 'active_connections': 0, 'active_cars': 187}
-{'timestamp': 291, 'cars_completed': 817, 'new_connections_made': 26, 'old_connections_dropped': 64, 'active_connections': 0, 'active_cars': 183}
-{'timestamp': 292, 'cars_completed': 820, 'new_connections_made': 25, 'old_connections_dropped': 55, 'active_connections': 0, 'active_cars': 180}
-{'timestamp': 293, 'cars_completed': 821, 'new_connections_made': 31, 'old_connections_dropped': 71, 'active_connections': 0, 'active_cars': 179}
-{'timestamp': 294, 'cars_completed': 825, 'new_connections_made': 42, 'old_connections_dropped': 80, 'active_connections': 0, 'active_cars': 175}
-{'timestamp': 295, 'cars_completed': 828, 'new_connections_made': 33, 'old_connections_dropped': 72, 'active_connections': 0, 'active_cars': 172}
-{'timestamp': 296, 'cars_completed': 830, 'new_connections_made': 44, 'old_connections_dropped': 82, 'active_connections': 0, 'active_cars': 170}
-{'timestamp': 297, 'cars_completed': 834, 'new_connections_made': 18, 'old_connections_dropped': 46, 'active_connections': 0, 'active_cars': 166}
-{'timestamp': 298, 'cars_completed': 838, 'new_connections_made': 36, 'old_connections_dropped': 66, 'active_connections': 0, 'active_cars': 162}
-{'timestamp': 299, 'cars_completed': 842, 'new_connections_made': 27, 'old_connections_dropped': 59, 'active_connections': 0, 'active_cars': 158}
-{'timestamp': 300, 'cars_completed': 844, 'new_connections_made': 27, 'old_connections_dropped': 64, 'active_connections': 0, 'active_cars': 156}
-{'timestamp': 301, 'cars_completed': 845, 'new_connections_made': 38, 'old_connections_dropped': 65, 'active_connections': 0, 'active_cars': 155}
-{'timestamp': 302, 'cars_completed': 849, 'new_connections_made': 18, 'old_connections_dropped': 38, 'active_connections': 0, 'active_cars': 151}
-{'timestamp': 303, 'cars_completed': 854, 'new_connections_made': 43, 'old_connections_dropped': 70, 'active_connections': 0, 'active_cars': 146}
-{'timestamp': 304, 'cars_completed': 857, 'new_connections_made': 21, 'old_connections_dropped': 57, 'active_connections': 0, 'active_cars': 143}
-{'timestamp': 305, 'cars_completed': 859, 'new_connections_made': 32, 'old_connections_dropped': 63, 'active_connections': 0, 'active_cars': 141}
-{'timestamp': 306, 'cars_completed': 862, 'new_connections_made': 18, 'old_connections_dropped': 32, 'active_connections': 0, 'active_cars': 138}
-{'timestamp': 307, 'cars_completed': 863, 'new_connections_made': 26, 'old_connections_dropped': 53, 'active_connections': 0, 'active_cars': 137}
-{'timestamp': 308, 'cars_completed': 865, 'new_connections_made': 24, 'old_connections_dropped': 50, 'active_connections': 0, 'active_cars': 135}
-{'timestamp': 309, 'cars_completed': 871, 'new_connections_made': 14, 'old_connections_dropped': 38, 'active_connections': 0, 'active_cars': 129}
-{'timestamp': 310, 'cars_completed': 873, 'new_connections_made': 23, 'old_connections_dropped': 46, 'active_connections': 0, 'active_cars': 127}
-{'timestamp': 311, 'cars_completed': 878, 'new_connections_made': 16, 'old_connections_dropped': 32, 'active_connections': 0, 'active_cars': 122}
-{'timestamp': 312, 'cars_completed': 880, 'new_connections_made': 23, 'old_connections_dropped': 59, 'active_connections': 0, 'active_cars': 120}
-{'timestamp': 313, 'cars_completed': 883, 'new_connections_made': 27, 'old_connections_dropped': 56, 'active_connections': 0, 'active_cars': 117}
-{'timestamp': 314, 'cars_completed': 888, 'new_connections_made': 20, 'old_connections_dropped': 44, 'active_connections': 0, 'active_cars': 112}
-{'timestamp': 315, 'cars_completed': 891, 'new_connections_made': 20, 'old_connections_dropped': 53, 'active_connections': 0, 'active_cars': 109}
-{'timestamp': 316, 'cars_completed': 893, 'new_connections_made': 25, 'old_connections_dropped': 46, 'active_connections': 0, 'active_cars': 107}
-{'timestamp': 317, 'cars_completed': 896, 'new_connections_made': 18, 'old_connections_dropped': 45, 'active_connections': 0, 'active_cars': 104}
-{'timestamp': 318, 'cars_completed': 901, 'new_connections_made': 15, 'old_connections_dropped': 33, 'active_connections': 0, 'active_cars': 99}
-{'timestamp': 319, 'cars_completed': 903, 'new_connections_made': 28, 'old_connections_dropped': 64, 'active_connections': 0, 'active_cars': 97}
-{'timestamp': 320, 'cars_completed': 906, 'new_connections_made': 18, 'old_connections_dropped': 38, 'active_connections': 0, 'active_cars': 94}
-{'timestamp': 321, 'cars_completed': 909, 'new_connections_made': 15, 'old_connections_dropped': 31, 'active_connections': 0, 'active_cars': 91}
-{'timestamp': 322, 'cars_completed': 912, 'new_connections_made': 19, 'old_connections_dropped': 29, 'active_connections': 0, 'active_cars': 88}
-{'timestamp': 323, 'cars_completed': 917, 'new_connections_made': 25, 'old_connections_dropped': 49, 'active_connections': 0, 'active_cars': 83}
-{'timestamp': 324, 'cars_completed': 921, 'new_connections_made': 15, 'old_connections_dropped': 36, 'active_connections': 0, 'active_cars': 79}
-{'timestamp': 325, 'cars_completed': 923, 'new_connections_made': 15, 'old_connections_dropped': 35, 'active_connections': 0, 'active_cars': 77}
-{'timestamp': 326, 'cars_completed': 926, 'new_connections_made': 17, 'old_connections_dropped': 23, 'active_connections': 0, 'active_cars': 74}
-{'timestamp': 327, 'cars_completed': 929, 'new_connections_made': 3, 'old_connections_dropped': 19, 'active_connections': 0, 'active_cars': 71}
-{'timestamp': 328, 'cars_completed': 931, 'new_connections_made': 28, 'old_connections_dropped': 42, 'active_connections': 0, 'active_cars': 69}
-{'timestamp': 329, 'cars_completed': 933, 'new_connections_made': 12, 'old_connections_dropped': 27, 'active_connections': 0, 'active_cars': 67}
-{'timestamp': 330, 'cars_completed': 933, 'new_connections_made': 6, 'old_connections_dropped': 18, 'active_connections': 0, 'active_cars': 67}
-{'timestamp': 331, 'cars_completed': 935, 'new_connections_made': 6, 'old_connections_dropped': 12, 'active_connections': 0, 'active_cars': 65}
-{'timestamp': 332, 'cars_completed': 936, 'new_connections_made': 6, 'old_connections_dropped': 15, 'active_connections': 0, 'active_cars': 64}
-{'timestamp': 333, 'cars_completed': 938, 'new_connections_made': 6, 'old_connections_dropped': 17, 'active_connections': 0, 'active_cars': 62}
-{'timestamp': 334, 'cars_completed': 941, 'new_connections_made': 6, 'old_connections_dropped': 18, 'active_connections': 0, 'active_cars': 59}
-{'timestamp': 335, 'cars_completed': 943, 'new_connections_made': 7, 'old_connections_dropped': 16, 'active_connections': 0, 'active_cars': 57}
-{'timestamp': 336, 'cars_completed': 945, 'new_connections_made': 9, 'old_connections_dropped': 19, 'active_connections': 0, 'active_cars': 55}
-{'timestamp': 337, 'cars_completed': 947, 'new_connections_made': 11, 'old_connections_dropped': 20, 'active_connections': 0, 'active_cars': 53}
-{'timestamp': 338, 'cars_completed': 952, 'new_connections_made': 6, 'old_connections_dropped': 19, 'active_connections': 0, 'active_cars': 48}
-{'timestamp': 339, 'cars_completed': 954, 'new_connections_made': 12, 'old_connections_dropped': 33, 'active_connections': 0, 'active_cars': 46}
-{'timestamp': 340, 'cars_completed': 955, 'new_connections_made': 3, 'old_connections_dropped': 12, 'active_connections': 0, 'active_cars': 45}
-{'timestamp': 341, 'cars_completed': 956, 'new_connections_made': 3, 'old_connections_dropped': 7, 'active_connections': 0, 'active_cars': 44}
-{'timestamp': 342, 'cars_completed': 958, 'new_connections_made': 9, 'old_connections_dropped': 18, 'active_connections': 0, 'active_cars': 42}
-{'timestamp': 343, 'cars_completed': 960, 'new_connections_made': 9, 'old_connections_dropped': 11, 'active_connections': 0, 'active_cars': 40}
-{'timestamp': 344, 'cars_completed': 961, 'new_connections_made': 4, 'old_connections_dropped': 10, 'active_connections': 0, 'active_cars': 39}
-{'timestamp': 345, 'cars_completed': 963, 'new_connections_made': 7, 'old_connections_dropped': 13, 'active_connections': 0, 'active_cars': 37}
-{'timestamp': 346, 'cars_completed': 963, 'new_connections_made': 5, 'old_connections_dropped': 15, 'active_connections': 0, 'active_cars': 37}
-{'timestamp': 347, 'cars_completed': 963, 'new_connections_made': 8, 'old_connections_dropped': 16, 'active_connections': 0, 'active_cars': 37}
-{'timestamp': 348, 'cars_completed': 963, 'new_connections_made': 1, 'old_connections_dropped': 4, 'active_connections': 0, 'active_cars': 37}
-{'timestamp': 349, 'cars_completed': 963, 'new_connections_made': 2, 'old_connections_dropped': 6, 'active_connections': 0, 'active_cars': 37}
-{'timestamp': 350, 'cars_completed': 964, 'new_connections_made': 2, 'old_connections_dropped': 4, 'active_connections': 0, 'active_cars': 36}
-{'timestamp': 351, 'cars_completed': 967, 'new_connections_made': 4, 'old_connections_dropped': 11, 'active_connections': 0, 'active_cars': 33}
-{'timestamp': 352, 'cars_completed': 967, 'new_connections_made': 4, 'old_connections_dropped': 12, 'active_connections': 0, 'active_cars': 33}
-{'timestamp': 353, 'cars_completed': 969, 'new_connections_made': 3, 'old_connections_dropped': 2, 'active_connections': 0, 'active_cars': 31}
-{'timestamp': 354, 'cars_completed': 969, 'new_connections_made': 4, 'old_connections_dropped': 11, 'active_connections': 0, 'active_cars': 31}
-{'timestamp': 355, 'cars_completed': 970, 'new_connections_made': 1, 'old_connections_dropped': 4, 'active_connections': 0, 'active_cars': 30}
-{'timestamp': 356, 'cars_completed': 972, 'new_connections_made': 4, 'old_connections_dropped': 11, 'active_connections': 0, 'active_cars': 28}
-{'timestamp': 357, 'cars_completed': 973, 'new_connections_made': 5, 'old_connections_dropped': 9, 'active_connections': 0, 'active_cars': 27}
-{'timestamp': 358, 'cars_completed': 973, 'new_connections_made': 0, 'old_connections_dropped': 5, 'active_connections': 0, 'active_cars': 27}
-{'timestamp': 359, 'cars_completed': 975, 'new_connections_made': 2, 'old_connections_dropped': 2, 'active_connections': 0, 'active_cars': 25}
-{'timestamp': 360, 'cars_completed': 976, 'new_connections_made': 2, 'old_connections_dropped': 12, 'active_connections': 0, 'active_cars': 24}
-{'timestamp': 361, 'cars_completed': 978, 'new_connections_made': 6, 'old_connections_dropped': 9, 'active_connections': 0, 'active_cars': 22}
-{'timestamp': 362, 'cars_completed': 979, 'new_connections_made': 2, 'old_connections_dropped': 9, 'active_connections': 0, 'active_cars': 21}
-{'timestamp': 363, 'cars_completed': 981, 'new_connections_made': 2, 'old_connections_dropped': 6, 'active_connections': 0, 'active_cars': 19}
-{'timestamp': 364, 'cars_completed': 981, 'new_connections_made': 1, 'old_connections_dropped': 2, 'active_connections': 0, 'active_cars': 19}
-{'timestamp': 365, 'cars_completed': 981, 'new_connections_made': 1, 'old_connections_dropped': 2, 'active_connections': 0, 'active_cars': 19}
-{'timestamp': 366, 'cars_completed': 984, 'new_connections_made': 0, 'old_connections_dropped': 4, 'active_connections': 0, 'active_cars': 16}
-{'timestamp': 367, 'cars_completed': 986, 'new_connections_made': 2, 'old_connections_dropped': 8, 'active_connections': 0, 'active_cars': 14}
-{'timestamp': 368, 'cars_completed': 987, 'new_connections_made': 0, 'old_connections_dropped': 4, 'active_connections': 0, 'active_cars': 13}
-{'timestamp': 369, 'cars_completed': 990, 'new_connections_made': 2, 'old_connections_dropped': 6, 'active_connections': 0, 'active_cars': 10}
-{'timestamp': 370, 'cars_completed': 990, 'new_connections_made': 0, 'old_connections_dropped': 3, 'active_connections': 0, 'active_cars': 10}
-{'timestamp': 371, 'cars_completed': 990, 'new_connections_made': 1, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 10}
-{'timestamp': 372, 'cars_completed': 991, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 9}
-{'timestamp': 373, 'cars_completed': 992, 'new_connections_made': 1, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 8}
-{'timestamp': 374, 'cars_completed': 992, 'new_connections_made': 0, 'old_connections_dropped': 3, 'active_connections': 0, 'active_cars': 8}
-{'timestamp': 375, 'cars_completed': 993, 'new_connections_made': 2, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 376, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 3, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 377, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 378, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 2, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 379, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 380, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 381, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 382, 'cars_completed': 993, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 7}
-{'timestamp': 383, 'cars_completed': 995, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 5}
-{'timestamp': 384, 'cars_completed': 996, 'new_connections_made': 1, 'old_connections_dropped': 3, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 385, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 1, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 386, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 387, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 388, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 389, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 390, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 391, 'cars_completed': 996, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 4}
-{'timestamp': 392, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 393, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 394, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 395, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 396, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 397, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 398, 'cars_completed': 997, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 3}
-{'timestamp': 399, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 400, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 1, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 401, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 402, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 403, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 404, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 405, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 406, 'cars_completed': 998, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 2}
-{'timestamp': 407, 'cars_completed': 999, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 1}
-{'timestamp': 408, 'cars_completed': 999, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 1}
-{'timestamp': 409, 'cars_completed': 1000, 'new_connections_made': 0, 'old_connections_dropped': 0, 'active_connections': 0, 'active_cars': 0}
+[
+    {"timestamp": 1, "cars_completed": 0, "new_connections_made": 0, "old_connections_dropped": 11, "active_connections": 0, "active_cars": 10, "avg_connection_duration": 0, "avg_connection_health": 0
+    },
+{"timestamp": 2, "cars_completed": 0, "new_connections_made": 4, "old_connections_dropped": 24, "active_connections": 8, "active_cars": 14, "avg_connection_duration": 1.0, "avg_connection_health": 0.7289293794815552
+    },
+{"timestamp": 3, "cars_completed": 0, "new_connections_made": 12, "old_connections_dropped": 19, "active_connections": 32, "active_cars": 18, "avg_connection_duration": 1.5, "avg_connection_health": 0.7228455658031869
+    },
+{"timestamp": 4, "cars_completed": 0, "new_connections_made": 9, "old_connections_dropped": 17, "active_connections": 48, "active_cars": 21, "avg_connection_duration": 2.5, "avg_connection_health": 0.776736179631357
+    },
+{"timestamp": 5, "cars_completed": 0, "new_connections_made": 7, "old_connections_dropped": 21, "active_connections": 58, "active_cars": 26, "avg_connection_duration": 3.689655172413793, "avg_connection_health": 0.8567245966669268
+    },
+{"timestamp": 6, "cars_completed": 0, "new_connections_made": 13, "old_connections_dropped": 23, "active_connections": 80, "active_cars": 31, "avg_connection_duration": 4.3, "avg_connection_health": 0.8343233070254253
+    },
+{"timestamp": 7, "cars_completed": 0, "new_connections_made": 13, "old_connections_dropped": 18, "active_connections": 106, "active_cars": 32, "avg_connection_duration": 5.0, "avg_connection_health": 0.7316825366548306
+    },
+{"timestamp": 8, "cars_completed": 0, "new_connections_made": 5, "old_connections_dropped": 9, "active_connections": 110, "active_cars": 37, "avg_connection_duration": 6.418181818181818, "avg_connection_health": 0.7654919500000535
+    },
+{"timestamp": 9, "cars_completed": 0, "new_connections_made": 14, "old_connections_dropped": 23, "active_connections": 137, "active_cars": 41, "avg_connection_duration": 6.852941176470588, "avg_connection_health": 0.7085952833526654
+    },
+{"timestamp": 10, "cars_completed": 0, "new_connections_made": 13, "old_connections_dropped": 21, "active_connections": 156, "active_cars": 45, "avg_connection_duration": 7.346153846153846, "avg_connection_health": 0.7041752306657407
+    },
+{"timestamp": 11, "cars_completed": 0, "new_connections_made": 17, "old_connections_dropped": 21, "active_connections": 185, "active_cars": 51, "avg_connection_duration": 7.720430107526882, "avg_connection_health": 0.6824322998071886
+    },
+{"timestamp": 12, "cars_completed": 0, "new_connections_made": 22, "old_connections_dropped": 36, "active_connections": 215, "active_cars": 59, "avg_connection_duration": 8.092592592592593, "avg_connection_health": 0.6912243168654832
+    },
+{"timestamp": 13, "cars_completed": 0, "new_connections_made": 25, "old_connections_dropped": 44, "active_connections": 255, "active_cars": 66, "avg_connection_duration": 8.2890625, "avg_connection_health": 0.7691572686332702
+    },
+{"timestamp": 14, "cars_completed": 0, "new_connections_made": 22, "old_connections_dropped": 35, "active_connections": 289, "active_cars": 75, "avg_connection_duration": 8.643835616438356, "avg_connection_health": 0.7829730916921731
+    },
+{"timestamp": 15, "cars_completed": 0, "new_connections_made": 33, "old_connections_dropped": 50, "active_connections": 341, "active_cars": 78, "avg_connection_duration": 8.589595375722544, "avg_connection_health": 0.7794445878026497
+    },
+{"timestamp": 16, "cars_completed": 0, "new_connections_made": 12, "old_connections_dropped": 21, "active_connections": 354, "active_cars": 85, "avg_connection_duration": 9.666666666666666, "avg_connection_health": 0.7937532695879971
+    },
+{"timestamp": 17, "cars_completed": 0, "new_connections_made": 24, "old_connections_dropped": 32, "active_connections": 393, "active_cars": 87, "avg_connection_duration": 10.31, "avg_connection_health": 0.790072037080104
+    },
+{"timestamp": 18, "cars_completed": 0, "new_connections_made": 13, "old_connections_dropped": 26, "active_connections": 401, "active_cars": 92, "avg_connection_duration": 11.338235294117647, "avg_connection_health": 0.7997644061232458
+    },
+{"timestamp": 19, "cars_completed": 0, "new_connections_made": 22, "old_connections_dropped": 36, "active_connections": 428, "active_cars": 97, "avg_connection_duration": 11.821100917431192, "avg_connection_health": 0.7723895831215457
+    },
+{"timestamp": 20, "cars_completed": 0, "new_connections_made": 20, "old_connections_dropped": 36, "active_connections": 456, "active_cars": 105, "avg_connection_duration": 12.46351931330472, "avg_connection_health": 0.7696891728787235
+    },
+{"timestamp": 21, "cars_completed": 0, "new_connections_made": 32, "old_connections_dropped": 53, "active_connections": 498, "active_cars": 107, "avg_connection_duration": 12.635294117647058, "avg_connection_health": 0.7956265507995129
+    },
+{"timestamp": 22, "cars_completed": 0, "new_connections_made": 17, "old_connections_dropped": 29, "active_connections": 510, "active_cars": 113, "avg_connection_duration": 13.471264367816092, "avg_connection_health": 0.8054338727815201
+    },
+{"timestamp": 23, "cars_completed": 0, "new_connections_made": 36, "old_connections_dropped": 56, "active_connections": 546, "active_cars": 116, "avg_connection_duration": 13.35483870967742, "avg_connection_health": 0.7945857978570905
+    },
+{"timestamp": 24, "cars_completed": 0, "new_connections_made": 22, "old_connections_dropped": 42, "active_connections": 558, "active_cars": 120, "avg_connection_duration": 14.154385964912281, "avg_connection_health": 0.7914807366935414
+    },
+{"timestamp": 25, "cars_completed": 0, "new_connections_made": 22, "old_connections_dropped": 42, "active_connections": 574, "active_cars": 122, "avg_connection_duration": 15.112627986348123, "avg_connection_health": 0.7915701552303864
+    },
+{"timestamp": 26, "cars_completed": 0, "new_connections_made": 21, "old_connections_dropped": 42, "active_connections": 582, "active_cars": 133, "avg_connection_duration": 15.824915824915825, "avg_connection_health": 0.7857285226360102
+    },
+{"timestamp": 27, "cars_completed": 0, "new_connections_made": 41, "old_connections_dropped": 64, "active_connections": 640, "active_cars": 138, "avg_connection_duration": 15.448170731707316, "avg_connection_health": 0.7798410238086845
+    },
+{"timestamp": 28, "cars_completed": 0, "new_connections_made": 24, "old_connections_dropped": 39, "active_connections": 665, "active_cars": 141, "avg_connection_duration": 16.0906432748538, "avg_connection_health": 0.7862067564934755
+    },
+{"timestamp": 29, "cars_completed": 0, "new_connections_made": 22, "old_connections_dropped": 41, "active_connections": 677, "active_cars": 145, "avg_connection_duration": 16.948275862068964, "avg_connection_health": 0.7971616274161141
+    },
+{"timestamp": 30, "cars_completed": 1, "new_connections_made": 25, "old_connections_dropped": 48, "active_connections": 693, "active_cars": 146, "avg_connection_duration": 17.131652661064425, "avg_connection_health": 0.8281190392894775
+    },
+{"timestamp": 31, "cars_completed": 1, "new_connections_made": 23, "old_connections_dropped": 43, "active_connections": 699, "active_cars": 151, "avg_connection_duration": 17.732782369146005, "avg_connection_health": 0.840411336293145
+    },
+{"timestamp": 32, "cars_completed": 2, "new_connections_made": 22, "old_connections_dropped": 41, "active_connections": 722, "active_cars": 154, "avg_connection_duration": 18.16976127320955, "avg_connection_health": 0.8425162816005565
+    },
+{"timestamp": 33, "cars_completed": 2, "new_connections_made": 22, "old_connections_dropped": 38, "active_connections": 740, "active_cars": 160, "avg_connection_duration": 18.71025641025641, "avg_connection_health": 0.8219302440677966
+    },
+{"timestamp": 34, "cars_completed": 3, "new_connections_made": 29, "old_connections_dropped": 56, "active_connections": 767, "active_cars": 164, "avg_connection_duration": 18.735148514851485, "avg_connection_health": 0.8279792988916671
+    },
+{"timestamp": 35, "cars_completed": 4, "new_connections_made": 37, "old_connections_dropped": 58, "active_connections": 789, "active_cars": 169, "avg_connection_duration": 18.79952830188679, "avg_connection_health": 0.8203832310598982
+    },
+{"timestamp": 36, "cars_completed": 4, "new_connections_made": 32, "old_connections_dropped": 60, "active_connections": 816, "active_cars": 173, "avg_connection_duration": 19.131221719457013, "avg_connection_health": 0.8103123634443957
+    },
+{"timestamp": 37, "cars_completed": 4, "new_connections_made": 32, "old_connections_dropped": 59, "active_connections": 838, "active_cars": 178, "avg_connection_duration": 19.55187637969095, "avg_connection_health": 0.800907902802437
+    },
+{"timestamp": 38, "cars_completed": 4, "new_connections_made": 25, "old_connections_dropped": 51, "active_connections": 858, "active_cars": 181, "avg_connection_duration": 19.98283261802575, "avg_connection_health": 0.786078117003405
+    },
+{"timestamp": 39, "cars_completed": 4, "new_connections_made": 26, "old_connections_dropped": 49, "active_connections": 871, "active_cars": 184, "avg_connection_duration": 20.479915433403807, "avg_connection_health": 0.7740088917437512
+    },
+{"timestamp": 40, "cars_completed": 4, "new_connections_made": 32, "old_connections_dropped": 65, "active_connections": 883, "active_cars": 189, "avg_connection_duration": 20.79375, "avg_connection_health": 0.786460620780454
+    },
+{"timestamp": 41, "cars_completed": 4, "new_connections_made": 30, "old_connections_dropped": 51, "active_connections": 909, "active_cars": 192, "avg_connection_duration": 20.736842105263158, "avg_connection_health": 0.7927849378749573
+    },
+{"timestamp": 42, "cars_completed": 4, "new_connections_made": 30, "old_connections_dropped": 53, "active_connections": 928, "active_cars": 193, "avg_connection_duration": 20.856858846918488, "avg_connection_health": 0.7947293915665865
+    },
+{"timestamp": 43, "cars_completed": 4, "new_connections_made": 22, "old_connections_dropped": 44, "active_connections": 932, "active_cars": 196, "avg_connection_duration": 21.835643564356435, "avg_connection_health": 0.7959862257002328
+    },
+{"timestamp": 44, "cars_completed": 5, "new_connections_made": 29, "old_connections_dropped": 54, "active_connections": 946, "active_cars": 202, "avg_connection_duration": 22.328125, "avg_connection_health": 0.8024789419395122
+    },
+{"timestamp": 45, "cars_completed": 5, "new_connections_made": 40, "old_connections_dropped": 78, "active_connections": 971, "active_cars": 206, "avg_connection_duration": 22.00377358490566, "avg_connection_health": 0.8201701889444534
+    },
+{"timestamp": 46, "cars_completed": 6, "new_connections_made": 27, "old_connections_dropped": 53, "active_connections": 985, "active_cars": 207, "avg_connection_duration": 22.25974025974026, "avg_connection_health": 0.831758736984702
+    },
+{"timestamp": 47, "cars_completed": 7, "new_connections_made": 25, "old_connections_dropped": 51, "active_connections": 988, "active_cars": 212, "avg_connection_duration": 23.233885819521177, "avg_connection_health": 0.8304649190261602
+    },
+{"timestamp": 48, "cars_completed": 7, "new_connections_made": 40, "old_connections_dropped": 72, "active_connections": 1017, "active_cars": 217, "avg_connection_duration": 23.040998217468804, "avg_connection_health": 0.8241961817479063
+    },
+{"timestamp": 49, "cars_completed": 10, "new_connections_made": 38, "old_connections_dropped": 64, "active_connections": 1047, "active_cars": 220, "avg_connection_duration": 22.95486111111111, "avg_connection_health": 0.8344213725451592
+    },
+{"timestamp": 50, "cars_completed": 10, "new_connections_made": 44, "old_connections_dropped": 80, "active_connections": 1062, "active_cars": 221, "avg_connection_duration": 22.721476510067113, "avg_connection_health": 0.8134666925490055
+    },
+{"timestamp": 51, "cars_completed": 10, "new_connections_made": 27, "old_connections_dropped": 61, "active_connections": 1058, "active_cars": 228, "avg_connection_duration": 23.42664418212479, "avg_connection_health": 0.8210496196062029
+    },
+{"timestamp": 52, "cars_completed": 10, "new_connections_made": 40, "old_connections_dropped": 69, "active_connections": 1096, "active_cars": 229, "avg_connection_duration": 23.522875816993466, "avg_connection_health": 0.8153844020057991
+    },
+{"timestamp": 53, "cars_completed": 11, "new_connections_made": 32, "old_connections_dropped": 65, "active_connections": 1100, "active_cars": 232, "avg_connection_duration": 24.28338762214984, "avg_connection_health": 0.8170980532528122
+    },
+{"timestamp": 54, "cars_completed": 12, "new_connections_made": 36, "old_connections_dropped": 66, "active_connections": 1116, "active_cars": 235, "avg_connection_duration": 24.540064102564102, "avg_connection_health": 0.8129626739618387
+    },
+{"timestamp": 55, "cars_completed": 12, "new_connections_made": 39, "old_connections_dropped": 71, "active_connections": 1132, "active_cars": 240, "avg_connection_duration": 24.730708661417324, "avg_connection_health": 0.8161835814845934
+    },
+{"timestamp": 56, "cars_completed": 13, "new_connections_made": 36, "old_connections_dropped": 59, "active_connections": 1162, "active_cars": 243, "avg_connection_duration": 24.895384615384614, "avg_connection_health": 0.8153384180212311
+    },
+{"timestamp": 57, "cars_completed": 14, "new_connections_made": 39, "old_connections_dropped": 72, "active_connections": 1185, "active_cars": 244, "avg_connection_duration": 25.242469879518072, "avg_connection_health": 0.8124756164901552
+    },
+{"timestamp": 58, "cars_completed": 14, "new_connections_made": 42, "old_connections_dropped": 83, "active_connections": 1188, "active_cars": 247, "avg_connection_duration": 25.041604754829123, "avg_connection_health": 0.8178591739136538
+    },
+{"timestamp": 59, "cars_completed": 19, "new_connections_made": 33, "old_connections_dropped": 58, "active_connections": 1207, "active_cars": 244, "avg_connection_duration": 25.685212298682284, "avg_connection_health": 0.8137835948515422
+    },
+{"timestamp": 60, "cars_completed": 19, "new_connections_made": 38, "old_connections_dropped": 81, "active_connections": 1194, "active_cars": 245, "avg_connection_duration": 25.955137481910274, "avg_connection_health": 0.8143045897890412
+    },
+{"timestamp": 61, "cars_completed": 21, "new_connections_made": 37, "old_connections_dropped": 67, "active_connections": 1204, "active_cars": 246, "avg_connection_duration": 26.20893371757925, "avg_connection_health": 0.8210541970426044
+    },
+{"timestamp": 62, "cars_completed": 21, "new_connections_made": 39, "old_connections_dropped": 73, "active_connections": 1212, "active_cars": 248, "avg_connection_duration": 26.647727272727273, "avg_connection_health": 0.8256662200667814
+    },
+{"timestamp": 63, "cars_completed": 22, "new_connections_made": 39, "old_connections_dropped": 74, "active_connections": 1224, "active_cars": 248, "avg_connection_duration": 27.040845070422534, "avg_connection_health": 0.8419835083906047
+    },
+{"timestamp": 64, "cars_completed": 23, "new_connections_made": 27, "old_connections_dropped": 58, "active_connections": 1222, "active_cars": 253, "avg_connection_duration": 27.69901547116737, "avg_connection_health": 0.8364527296821342
+    },
+{"timestamp": 65, "cars_completed": 23, "new_connections_made": 39, "old_connections_dropped": 65, "active_connections": 1254, "active_cars": 260, "avg_connection_duration": 27.804109589041097, "avg_connection_health": 0.8198306035739282
+    },
+{"timestamp": 66, "cars_completed": 26, "new_connections_made": 66, "old_connections_dropped": 115, "active_connections": 1293, "active_cars": 264, "avg_connection_duration": 26.986648865153537, "avg_connection_health": 0.8289186822929019
+    },
+{"timestamp": 67, "cars_completed": 29, "new_connections_made": 49, "old_connections_dropped": 100, "active_connections": 1311, "active_cars": 265, "avg_connection_duration": 26.81201044386423, "avg_connection_health": 0.8423544286399023
+    },
+{"timestamp": 68, "cars_completed": 31, "new_connections_made": 46, "old_connections_dropped": 91, "active_connections": 1315, "active_cars": 266, "avg_connection_duration": 26.760204081632654, "avg_connection_health": 0.8529583807338889
+    },
+{"timestamp": 69, "cars_completed": 32, "new_connections_made": 33, "old_connections_dropped": 66, "active_connections": 1318, "active_cars": 268, "avg_connection_duration": 27.2, "avg_connection_health": 0.8622306329471596
+    },
+{"timestamp": 70, "cars_completed": 33, "new_connections_made": 48, "old_connections_dropped": 88, "active_connections": 1335, "active_cars": 271, "avg_connection_duration": 26.978802992518702, "avg_connection_health": 0.8817213648674705
+    },
+{"timestamp": 71, "cars_completed": 33, "new_connections_made": 52, "old_connections_dropped": 96, "active_connections": 1356, "active_cars": 275, "avg_connection_duration": 26.953374233128834, "avg_connection_health": 0.8844366602533688
+    },
+{"timestamp": 72, "cars_completed": 36, "new_connections_made": 40, "old_connections_dropped": 76, "active_connections": 1375, "active_cars": 277, "avg_connection_duration": 27.07506053268765, "avg_connection_health": 0.8877510504098652
+    },
+{"timestamp": 73, "cars_completed": 36, "new_connections_made": 89, "old_connections_dropped": 126, "active_connections": 1388, "active_cars": 281, "avg_connection_duration": 25.891133557800224, "avg_connection_health": 0.8697422879713579
+    },
+{"timestamp": 74, "cars_completed": 39, "new_connections_made": 43, "old_connections_dropped": 77, "active_connections": 1409, "active_cars": 281, "avg_connection_duration": 26.216426193118757, "avg_connection_health": 0.8798171397943888
+    },
+{"timestamp": 75, "cars_completed": 40, "new_connections_made": 31, "old_connections_dropped": 64, "active_connections": 1409, "active_cars": 283, "avg_connection_duration": 27.104625550660792, "avg_connection_health": 0.8717519367058121
+    },
+{"timestamp": 76, "cars_completed": 44, "new_connections_made": 42, "old_connections_dropped": 84, "active_connections": 1415, "active_cars": 281, "avg_connection_duration": 27.356673960612692, "avg_connection_health": 0.8636316275054152
+    },
+{"timestamp": 77, "cars_completed": 46, "new_connections_made": 76, "old_connections_dropped": 129, "active_connections": 1409, "active_cars": 284, "avg_connection_duration": 26.820485744456178, "avg_connection_health": 0.8525161785762148
+    },
+{"timestamp": 78, "cars_completed": 47, "new_connections_made": 50, "old_connections_dropped": 92, "active_connections": 1428, "active_cars": 286, "avg_connection_duration": 26.976041666666667, "avg_connection_health": 0.8430649696853713
+    },
+{"timestamp": 79, "cars_completed": 48, "new_connections_made": 44, "old_connections_dropped": 86, "active_connections": 1441, "active_cars": 289, "avg_connection_duration": 27.520123839009287, "avg_connection_health": 0.8348783008640679
+    },
+{"timestamp": 80, "cars_completed": 50, "new_connections_made": 47, "old_connections_dropped": 86, "active_connections": 1461, "active_cars": 291, "avg_connection_duration": 27.773930753564155, "avg_connection_health": 0.8219471375966261
+    },
+{"timestamp": 81, "cars_completed": 51, "new_connections_made": 79, "old_connections_dropped": 128, "active_connections": 1474, "active_cars": 298, "avg_connection_duration": 27.396856581532415, "avg_connection_health": 0.820475836582131
+    },
+{"timestamp": 82, "cars_completed": 52, "new_connections_made": 63, "old_connections_dropped": 113, "active_connections": 1512, "active_cars": 297, "avg_connection_duration": 27.315081652257444, "avg_connection_health": 0.8141218233379934
+    },
+{"timestamp": 83, "cars_completed": 55, "new_connections_made": 46, "old_connections_dropped": 95, "active_connections": 1506, "active_cars": 300, "avg_connection_duration": 27.51923076923077, "avg_connection_health": 0.8245598137704313
+    },
+{"timestamp": 84, "cars_completed": 56, "new_connections_made": 49, "old_connections_dropped": 95, "active_connections": 1523, "active_cars": 304, "avg_connection_duration": 27.32547169811321, "avg_connection_health": 0.8301551964604696
+    },
+{"timestamp": 85, "cars_completed": 57, "new_connections_made": 49, "old_connections_dropped": 89, "active_connections": 1545, "active_cars": 305, "avg_connection_duration": 27.733705772811916, "avg_connection_health": 0.8228892217709871
+    },
+{"timestamp": 86, "cars_completed": 58, "new_connections_made": 67, "old_connections_dropped": 118, "active_connections": 1561, "active_cars": 309, "avg_connection_duration": 27.330882352941178, "avg_connection_health": 0.8437864465390842
+    },
+{"timestamp": 87, "cars_completed": 60, "new_connections_made": 49, "old_connections_dropped": 82, "active_connections": 1592, "active_cars": 309, "avg_connection_duration": 27.471971066907777, "avg_connection_health": 0.839667329840676
+    },
+{"timestamp": 88, "cars_completed": 60, "new_connections_made": 39, "old_connections_dropped": 75, "active_connections": 1595, "active_cars": 311, "avg_connection_duration": 28.048517520215633, "avg_connection_health": 0.8337261479569537
+    },
+{"timestamp": 89, "cars_completed": 61, "new_connections_made": 59, "old_connections_dropped": 123, "active_connections": 1598, "active_cars": 313, "avg_connection_duration": 27.932735426008968, "avg_connection_health": 0.8585586691261036
+    },
+{"timestamp": 90, "cars_completed": 64, "new_connections_made": 39, "old_connections_dropped": 79, "active_connections": 1604, "active_cars": 313, "avg_connection_duration": 28.474621549421194, "avg_connection_health": 0.8653759849100078
+    },
+{"timestamp": 91, "cars_completed": 65, "new_connections_made": 51, "old_connections_dropped": 94, "active_connections": 1617, "active_cars": 317, "avg_connection_duration": 28.48902546093064, "avg_connection_health": 0.8713212027858628
+    },
+{"timestamp": 92, "cars_completed": 67, "new_connections_made": 51, "old_connections_dropped": 98, "active_connections": 1638, "active_cars": 319, "avg_connection_duration": 28.612315698178666, "avg_connection_health": 0.8871940457685489
+    },
+{"timestamp": 93, "cars_completed": 67, "new_connections_made": 41, "old_connections_dropped": 82, "active_connections": 1645, "active_cars": 320, "avg_connection_duration": 29.11177987962167, "avg_connection_health": 0.8821433528263894
+    },
+{"timestamp": 94, "cars_completed": 68, "new_connections_made": 37, "old_connections_dropped": 72, "active_connections": 1650, "active_cars": 326, "avg_connection_duration": 29.77615780445969, "avg_connection_health": 0.8772585242913689
+    },
+{"timestamp": 95, "cars_completed": 70, "new_connections_made": 55, "old_connections_dropped": 98, "active_connections": 1681, "active_cars": 332, "avg_connection_duration": 29.842327150084316, "avg_connection_health": 0.8699535140579141
+    },
+{"timestamp": 96, "cars_completed": 75, "new_connections_made": 70, "old_connections_dropped": 119, "active_connections": 1717, "active_cars": 332, "avg_connection_duration": 29.64168039538715, "avg_connection_health": 0.8689312101181119
+    },
+{"timestamp": 97, "cars_completed": 76, "new_connections_made": 101, "old_connections_dropped": 159, "active_connections": 1723, "active_cars": 333, "avg_connection_duration": 28.654117647058822, "avg_connection_health": 0.8577518276734083
+    },
+{"timestamp": 98, "cars_completed": 76, "new_connections_made": 32, "old_connections_dropped": 64, "active_connections": 1727, "active_cars": 335, "avg_connection_duration": 29.378125, "avg_connection_health": 0.841973989736215
+    },
+{"timestamp": 99, "cars_completed": 77, "new_connections_made": 42, "old_connections_dropped": 86, "active_connections": 1735, "active_cars": 338, "avg_connection_duration": 29.927570093457945, "avg_connection_health": 0.8417840686714045
+    },
+{"timestamp": 100, "cars_completed": 80, "new_connections_made": 50, "old_connections_dropped": 92, "active_connections": 1751, "active_cars": 340, "avg_connection_duration": 30.188126445643793, "avg_connection_health": 0.8301913830343883
+    },
+{"timestamp": 101, "cars_completed": 81, "new_connections_made": 75, "old_connections_dropped": 131, "active_connections": 1767, "active_cars": 342, "avg_connection_duration": 29.681203007518796, "avg_connection_health": 0.8034798580937296
+    },
+{"timestamp": 102, "cars_completed": 86, "new_connections_made": 54, "old_connections_dropped": 111, "active_connections": 1777, "active_cars": 342, "avg_connection_duration": 29.842301943198805, "avg_connection_health": 0.7974398701796382
+    },
+{"timestamp": 103, "cars_completed": 88, "new_connections_made": 95, "old_connections_dropped": 183, "active_connections": 1772, "active_cars": 342, "avg_connection_duration": 29.37381126554499, "avg_connection_health": 0.7950331974909607
+    },
+{"timestamp": 104, "cars_completed": 89, "new_connections_made": 49, "old_connections_dropped": 107, "active_connections": 1765, "active_cars": 343, "avg_connection_duration": 29.91526661796932, "avg_connection_health": 0.8030908026402053
+    },
+{"timestamp": 105, "cars_completed": 95, "new_connections_made": 61, "old_connections_dropped": 118, "active_connections": 1772, "active_cars": 346, "avg_connection_duration": 29.7921511627907, "avg_connection_health": 0.8084414292040548
+    },
+{"timestamp": 106, "cars_completed": 99, "new_connections_made": 105, "old_connections_dropped": 174, "active_connections": 1790, "active_cars": 348, "avg_connection_duration": 28.940848990953373, "avg_connection_health": 0.8061492640227318
+    },
+{"timestamp": 107, "cars_completed": 102, "new_connections_made": 61, "old_connections_dropped": 118, "active_connections": 1802, "active_cars": 349, "avg_connection_duration": 28.848005502063273, "avg_connection_health": 0.8188723028771038
+    },
+{"timestamp": 108, "cars_completed": 104, "new_connections_made": 53, "old_connections_dropped": 105, "active_connections": 1809, "active_cars": 351, "avg_connection_duration": 29.084699453551913, "avg_connection_health": 0.8261084015458824
+    },
+{"timestamp": 109, "cars_completed": 105, "new_connections_made": 57, "old_connections_dropped": 111, "active_connections": 1807, "active_cars": 353, "avg_connection_duration": 29.155137676292814, "avg_connection_health": 0.8197241393961737
+    },
+{"timestamp": 110, "cars_completed": 110, "new_connections_made": 46, "old_connections_dropped": 93, "active_connections": 1813, "active_cars": 353, "avg_connection_duration": 29.442809364548495, "avg_connection_health": 0.8277335208804402
+    },
+{"timestamp": 111, "cars_completed": 114, "new_connections_made": 69, "old_connections_dropped": 117, "active_connections": 1818, "active_cars": 351, "avg_connection_duration": 29.391503267973857, "avg_connection_health": 0.830667632351987
+    },
+{"timestamp": 112, "cars_completed": 115, "new_connections_made": 64, "old_connections_dropped": 126, "active_connections": 1815, "active_cars": 352, "avg_connection_duration": 29.580246913580247, "avg_connection_health": 0.8404066276620767
+    },
+{"timestamp": 113, "cars_completed": 119, "new_connections_made": 66, "old_connections_dropped": 117, "active_connections": 1828, "active_cars": 353, "avg_connection_duration": 29.433161953727506, "avg_connection_health": 0.8441076449466638
+    },
+{"timestamp": 114, "cars_completed": 123, "new_connections_made": 76, "old_connections_dropped": 135, "active_connections": 1838, "active_cars": 353, "avg_connection_duration": 29.132659507264687, "avg_connection_health": 0.8410851343036438
+    },
+{"timestamp": 115, "cars_completed": 126, "new_connections_made": 54, "old_connections_dropped": 105, "active_connections": 1840, "active_cars": 352, "avg_connection_duration": 29.320024953212727, "avg_connection_health": 0.8386407125518744
+    },
+{"timestamp": 116, "cars_completed": 130, "new_connections_made": 52, "old_connections_dropped": 107, "active_connections": 1835, "active_cars": 351, "avg_connection_duration": 29.377018633540374, "avg_connection_health": 0.8410896242936903
+    },
+{"timestamp": 117, "cars_completed": 132, "new_connections_made": 63, "old_connections_dropped": 135, "active_connections": 1827, "active_cars": 351, "avg_connection_duration": 29.41187384044527, "avg_connection_health": 0.8398758532342999
+    },
+{"timestamp": 118, "cars_completed": 134, "new_connections_made": 46, "old_connections_dropped": 104, "active_connections": 1816, "active_cars": 352, "avg_connection_duration": 29.858467243510507, "avg_connection_health": 0.8418548784094904
+    },
+{"timestamp": 119, "cars_completed": 136, "new_connections_made": 50, "old_connections_dropped": 106, "active_connections": 1817, "active_cars": 354, "avg_connection_duration": 30.081230769230768, "avg_connection_health": 0.8325238158252469
+    },
+{"timestamp": 120, "cars_completed": 140, "new_connections_made": 58, "old_connections_dropped": 114, "active_connections": 1829, "active_cars": 352, "avg_connection_duration": 30.202933985330073, "avg_connection_health": 0.8339854298842111
+    },
+{"timestamp": 121, "cars_completed": 144, "new_connections_made": 58, "old_connections_dropped": 130, "active_connections": 1812, "active_cars": 350, "avg_connection_duration": 30.409395973154364, "avg_connection_health": 0.8397801989180552
+    },
+{"timestamp": 122, "cars_completed": 147, "new_connections_made": 62, "old_connections_dropped": 117, "active_connections": 1805, "active_cars": 351, "avg_connection_duration": 30.497284248642124, "avg_connection_health": 0.8188346598890275
+    },
+{"timestamp": 123, "cars_completed": 153, "new_connections_made": 82, "old_connections_dropped": 156, "active_connections": 1813, "active_cars": 348, "avg_connection_duration": 30.22700119474313, "avg_connection_health": 0.8286439142463641
+    },
+{"timestamp": 124, "cars_completed": 157, "new_connections_made": 54, "old_connections_dropped": 118, "active_connections": 1799, "active_cars": 348, "avg_connection_duration": 30.37091988130564, "avg_connection_health": 0.8283364117424978
+    },
+{"timestamp": 125, "cars_completed": 159, "new_connections_made": 65, "old_connections_dropped": 137, "active_connections": 1799, "active_cars": 350, "avg_connection_duration": 30.42865566037736, "avg_connection_health": 0.8276259512889506
+    },
+{"timestamp": 126, "cars_completed": 165, "new_connections_made": 72, "old_connections_dropped": 131, "active_connections": 1814, "active_cars": 352, "avg_connection_duration": 30.305134189031506, "avg_connection_health": 0.8453897423782393
+    },
+{"timestamp": 127, "cars_completed": 169, "new_connections_made": 100, "old_connections_dropped": 186, "active_connections": 1816, "active_cars": 353, "avg_connection_duration": 29.5342776203966, "avg_connection_health": 0.8437781940210666
+    },
+{"timestamp": 128, "cars_completed": 169, "new_connections_made": 59, "old_connections_dropped": 125, "active_connections": 1815, "active_cars": 356, "avg_connection_duration": 29.554806070826306, "avg_connection_health": 0.8374548853883158
+    },
+{"timestamp": 129, "cars_completed": 174, "new_connections_made": 59, "old_connections_dropped": 115, "active_connections": 1831, "active_cars": 358, "avg_connection_duration": 29.703247480403135, "avg_connection_health": 0.8385280742238265
+    },
+{"timestamp": 130, "cars_completed": 181, "new_connections_made": 71, "old_connections_dropped": 150, "active_connections": 1837, "active_cars": 357, "avg_connection_duration": 29.800443458980045, "avg_connection_health": 0.8418847101650146
+    },
+{"timestamp": 131, "cars_completed": 182, "new_connections_made": 50, "old_connections_dropped": 104, "active_connections": 1830, "active_cars": 361, "avg_connection_duration": 30.07076247942951, "avg_connection_health": 0.8419202745451153
+    },
+{"timestamp": 132, "cars_completed": 185, "new_connections_made": 57, "old_connections_dropped": 96, "active_connections": 1863, "active_cars": 362, "avg_connection_duration": 30.115154807170015, "avg_connection_health": 0.8313248630042674
+    },
+{"timestamp": 133, "cars_completed": 191, "new_connections_made": 57, "old_connections_dropped": 112, "active_connections": 1868, "active_cars": 359, "avg_connection_duration": 30.373988127361038, "avg_connection_health": 0.8315082121873445
+    },
+{"timestamp": 134, "cars_completed": 196, "new_connections_made": 63, "old_connections_dropped": 125, "active_connections": 1857, "active_cars": 359, "avg_connection_duration": 30.414125200642054, "avg_connection_health": 0.836258645814536
+    },
+{"timestamp": 135, "cars_completed": 201, "new_connections_made": 78, "old_connections_dropped": 144, "active_connections": 1865, "active_cars": 358, "avg_connection_duration": 30.030047443331576, "avg_connection_health": 0.8390841529018414
+    },
+{"timestamp": 136, "cars_completed": 201, "new_connections_made": 68, "old_connections_dropped": 116, "active_connections": 1876, "active_cars": 360, "avg_connection_duration": 30.0425974025974, "avg_connection_health": 0.849584083269477
+    },
+{"timestamp": 137, "cars_completed": 205, "new_connections_made": 40, "old_connections_dropped": 80, "active_connections": 1884, "active_cars": 363, "avg_connection_duration": 30.42124352331606, "avg_connection_health": 0.8585793159280368
+    },
+{"timestamp": 138, "cars_completed": 210, "new_connections_made": 62, "old_connections_dropped": 125, "active_connections": 1899, "active_cars": 362, "avg_connection_duration": 30.485377116469984, "avg_connection_health": 0.8643175814082847
+    },
+{"timestamp": 139, "cars_completed": 211, "new_connections_made": 47, "old_connections_dropped": 102, "active_connections": 1889, "active_cars": 365, "avg_connection_duration": 30.904032669729453, "avg_connection_health": 0.8643963223921037
+    },
+{"timestamp": 140, "cars_completed": 214, "new_connections_made": 50, "old_connections_dropped": 98, "active_connections": 1905, "active_cars": 366, "avg_connection_duration": 30.93658041603247, "avg_connection_health": 0.8575825000603875
+    },
+{"timestamp": 141, "cars_completed": 218, "new_connections_made": 58, "old_connections_dropped": 118, "active_connections": 1907, "active_cars": 365, "avg_connection_duration": 31.067642604745078, "avg_connection_health": 0.8633586899775376
+    },
+{"timestamp": 142, "cars_completed": 223, "new_connections_made": 40, "old_connections_dropped": 75, "active_connections": 1910, "active_cars": 364, "avg_connection_duration": 31.49172102358254, "avg_connection_health": 0.8440602937008772
+    },
+{"timestamp": 143, "cars_completed": 228, "new_connections_made": 88, "old_connections_dropped": 145, "active_connections": 1912, "active_cars": 362, "avg_connection_duration": 31.17771232204222, "avg_connection_health": 0.827418698937484
+    },
+{"timestamp": 144, "cars_completed": 230, "new_connections_made": 56, "old_connections_dropped": 123, "active_connections": 1896, "active_cars": 364, "avg_connection_duration": 31.258553274682306, "avg_connection_health": 0.8354469808852951
+    },
+{"timestamp": 145, "cars_completed": 233, "new_connections_made": 53, "old_connections_dropped": 109, "active_connections": 1906, "active_cars": 363, "avg_connection_duration": 31.356171039844508, "avg_connection_health": 0.8305797486106221
+    },
+{"timestamp": 146, "cars_completed": 238, "new_connections_made": 55, "old_connections_dropped": 117, "active_connections": 1897, "active_cars": 367, "avg_connection_duration": 31.584869059165857, "avg_connection_health": 0.8358747882620787
+    },
+{"timestamp": 147, "cars_completed": 239, "new_connections_made": 137, "old_connections_dropped": 202, "active_connections": 1930, "active_cars": 370, "avg_connection_duration": 30.263843648208468, "avg_connection_health": 0.8363547231856642
+    },
+{"timestamp": 148, "cars_completed": 242, "new_connections_made": 53, "old_connections_dropped": 94, "active_connections": 1944, "active_cars": 371, "avg_connection_duration": 30.321658986175116, "avg_connection_health": 0.8326249530006617
+    },
+{"timestamp": 149, "cars_completed": 244, "new_connections_made": 58, "old_connections_dropped": 110, "active_connections": 1956, "active_cars": 372, "avg_connection_duration": 30.422619047619047, "avg_connection_health": 0.8386529385993866
+    },
+{"timestamp": 150, "cars_completed": 248, "new_connections_made": 98, "old_connections_dropped": 158, "active_connections": 1955, "active_cars": 369, "avg_connection_duration": 29.864247311827956, "avg_connection_health": 0.8348456796584139
+    },
+{"timestamp": 151, "cars_completed": 257, "new_connections_made": 39, "old_connections_dropped": 88, "active_connections": 1937, "active_cars": 362, "avg_connection_duration": 30.327069351230424, "avg_connection_health": 0.8355397851776709
+    },
+{"timestamp": 152, "cars_completed": 262, "new_connections_made": 51, "old_connections_dropped": 125, "active_connections": 1892, "active_cars": 364, "avg_connection_duration": 30.50222816399287, "avg_connection_health": 0.8333242277653572
+    },
+{"timestamp": 153, "cars_completed": 266, "new_connections_made": 110, "old_connections_dropped": 175, "active_connections": 1905, "active_cars": 363, "avg_connection_duration": 29.872940156114485, "avg_connection_health": 0.8296001284535436
+    },
+{"timestamp": 154, "cars_completed": 269, "new_connections_made": 47, "old_connections_dropped": 93, "active_connections": 1904, "active_cars": 363, "avg_connection_duration": 30.049180327868854, "avg_connection_health": 0.8238593961048607
+    },
+{"timestamp": 155, "cars_completed": 273, "new_connections_made": 76, "old_connections_dropped": 134, "active_connections": 1912, "active_cars": 361, "avg_connection_duration": 29.950021358393847, "avg_connection_health": 0.8144176649990319
+    },
+{"timestamp": 156, "cars_completed": 277, "new_connections_made": 45, "old_connections_dropped": 99, "active_connections": 1897, "active_cars": 361, "avg_connection_duration": 30.168797953964194, "avg_connection_health": 0.8062917131100258
+    },
+{"timestamp": 157, "cars_completed": 279, "new_connections_made": 64, "old_connections_dropped": 133, "active_connections": 1897, "active_cars": 362, "avg_connection_duration": 30.02800169707255, "avg_connection_health": 0.8015722369179361
+    },
+{"timestamp": 158, "cars_completed": 280, "new_connections_made": 57, "old_connections_dropped": 121, "active_connections": 1896, "active_cars": 364, "avg_connection_duration": 30.016511430990686, "avg_connection_health": 0.7905568550285076
+    },
+{"timestamp": 159, "cars_completed": 284, "new_connections_made": 73, "old_connections_dropped": 148, "active_connections": 1901, "active_cars": 367, "avg_connection_duration": 29.87035472972973, "avg_connection_health": 0.796598131876814
+    },
+{"timestamp": 160, "cars_completed": 286, "new_connections_made": 72, "old_connections_dropped": 132, "active_connections": 1926, "active_cars": 369, "avg_connection_duration": 29.767976588628763, "avg_connection_health": 0.8000101800859457
+    },
+{"timestamp": 161, "cars_completed": 290, "new_connections_made": 83, "old_connections_dropped": 151, "active_connections": 1929, "active_cars": 370, "avg_connection_duration": 29.617574257425744, "avg_connection_health": 0.8130984803789227
+    },
+{"timestamp": 162, "cars_completed": 295, "new_connections_made": 61, "old_connections_dropped": 126, "active_connections": 1934, "active_cars": 370, "avg_connection_duration": 29.73461853978671, "avg_connection_health": 0.8304480418932628
+    },
+{"timestamp": 163, "cars_completed": 301, "new_connections_made": 121, "old_connections_dropped": 169, "active_connections": 1937, "active_cars": 369, "avg_connection_duration": 29.07957244655582, "avg_connection_health": 0.81924239103505
+    },
+{"timestamp": 164, "cars_completed": 307, "new_connections_made": 57, "old_connections_dropped": 110, "active_connections": 1938, "active_cars": 365, "avg_connection_duration": 29.153301886792452, "avg_connection_health": 0.8184295370276873
+    },
+{"timestamp": 165, "cars_completed": 312, "new_connections_made": 59, "old_connections_dropped": 123, "active_connections": 1912, "active_cars": 363, "avg_connection_duration": 29.345717637856865, "avg_connection_health": 0.8136195044198209
+    },
+{"timestamp": 166, "cars_completed": 313, "new_connections_made": 75, "old_connections_dropped": 165, "active_connections": 1891, "active_cars": 369, "avg_connection_duration": 29.38305349472862, "avg_connection_health": 0.8377513806652901
+    },
+{"timestamp": 167, "cars_completed": 316, "new_connections_made": 64, "old_connections_dropped": 115, "active_connections": 1923, "active_cars": 368, "avg_connection_duration": 29.513178294573642, "avg_connection_health": 0.8389403180342389
+    },
+{"timestamp": 168, "cars_completed": 319, "new_connections_made": 133, "old_connections_dropped": 195, "active_connections": 1924, "active_cars": 370, "avg_connection_duration": 28.844503012048193, "avg_connection_health": 0.8390611246400638
+    },
+{"timestamp": 169, "cars_completed": 323, "new_connections_made": 61, "old_connections_dropped": 122, "active_connections": 1931, "active_cars": 371, "avg_connection_duration": 28.955414012738853, "avg_connection_health": 0.8443471887243326
+    },
+{"timestamp": 170, "cars_completed": 327, "new_connections_made": 52, "old_connections_dropped": 104, "active_connections": 1935, "active_cars": 373, "avg_connection_duration": 29.19164802386279, "avg_connection_health": 0.8445097987882243
+    },
+{"timestamp": 171, "cars_completed": 329, "new_connections_made": 80, "old_connections_dropped": 156, "active_connections": 1947, "active_cars": 374, "avg_connection_duration": 29.078518518518518, "avg_connection_health": 0.8579461757124947
+    },
+{"timestamp": 172, "cars_completed": 337, "new_connections_made": 39, "old_connections_dropped": 86, "active_connections": 1947, "active_cars": 377, "avg_connection_duration": 29.445142223864057, "avg_connection_health": 0.8605412040615055
+    },
+{"timestamp": 173, "cars_completed": 344, "new_connections_made": 73, "old_connections_dropped": 141, "active_connections": 1966, "active_cars": 373, "avg_connection_duration": 29.286078717201168, "avg_connection_health": 0.8544800991799947
+    },
+{"timestamp": 174, "cars_completed": 349, "new_connections_made": 77, "old_connections_dropped": 158, "active_connections": 1951, "active_cars": 371, "avg_connection_duration": 29.230155853570135, "avg_connection_health": 0.8572455348177713
+    },
+{"timestamp": 175, "cars_completed": 353, "new_connections_made": 71, "old_connections_dropped": 130, "active_connections": 1953, "active_cars": 370, "avg_connection_duration": 29.262230215827337, "avg_connection_health": 0.8539925957509709
+    },
+{"timestamp": 176, "cars_completed": 354, "new_connections_made": 48, "old_connections_dropped": 97, "active_connections": 1949, "active_cars": 376, "avg_connection_duration": 29.499283667621775, "avg_connection_health": 0.8414669196558957
+    },
+{"timestamp": 177, "cars_completed": 357, "new_connections_made": 71, "old_connections_dropped": 131, "active_connections": 1982, "active_cars": 380, "avg_connection_duration": 29.525791533262183, "avg_connection_health": 0.8377575095672806
+    },
+{"timestamp": 178, "cars_completed": 360, "new_connections_made": 68, "old_connections_dropped": 146, "active_connections": 1989, "active_cars": 382, "avg_connection_duration": 29.496107572540694, "avg_connection_health": 0.8371574768564519
+    },
+{"timestamp": 179, "cars_completed": 362, "new_connections_made": 60, "old_connections_dropped": 121, "active_connections": 2000, "active_cars": 384, "avg_connection_duration": 29.630633802816902, "avg_connection_health": 0.8392846520316293
+    },
+{"timestamp": 180, "cars_completed": 365, "new_connections_made": 56, "old_connections_dropped": 116, "active_connections": 2003, "active_cars": 382, "avg_connection_duration": 29.844857844857845, "avg_connection_health": 0.8442281177829707
+    },
+{"timestamp": 181, "cars_completed": 368, "new_connections_made": 97, "old_connections_dropped": 158, "active_connections": 1998, "active_cars": 381, "avg_connection_duration": 29.547907298512627, "avg_connection_health": 0.8386673404001994
+    },
+{"timestamp": 182, "cars_completed": 373, "new_connections_made": 83, "old_connections_dropped": 142, "active_connections": 1996, "active_cars": 381, "avg_connection_duration": 29.42407660738714, "avg_connection_health": 0.851156739091843
+    },
+{"timestamp": 183, "cars_completed": 374, "new_connections_made": 88, "old_connections_dropped": 146, "active_connections": 1999, "active_cars": 387, "avg_connection_duration": 29.30603302999663, "avg_connection_health": 0.8621384777072539
+    },
+{"timestamp": 184, "cars_completed": 376, "new_connections_made": 54, "old_connections_dropped": 103, "active_connections": 2028, "active_cars": 391, "avg_connection_duration": 29.487943737441395, "avg_connection_health": 0.8577618305081689
+    },
+{"timestamp": 185, "cars_completed": 380, "new_connections_made": 70, "old_connections_dropped": 130, "active_connections": 2047, "active_cars": 388, "avg_connection_duration": 29.332005312084995, "avg_connection_health": 0.8610282859072144
+    },
+{"timestamp": 186, "cars_completed": 382, "new_connections_made": 44, "old_connections_dropped": 97, "active_connections": 2031, "active_cars": 390, "avg_connection_duration": 29.667440318302386, "avg_connection_health": 0.8626554908694167
+    },
+{"timestamp": 187, "cars_completed": 387, "new_connections_made": 65, "old_connections_dropped": 125, "active_connections": 2042, "active_cars": 390, "avg_connection_duration": 29.78460521968946, "avg_connection_health": 0.8713345532850703
+    },
+{"timestamp": 188, "cars_completed": 391, "new_connections_made": 66, "old_connections_dropped": 128, "active_connections": 2046, "active_cars": 388, "avg_connection_duration": 29.86563731931669, "avg_connection_health": 0.8792163064775795
+    },
+{"timestamp": 189, "cars_completed": 395, "new_connections_made": 54, "old_connections_dropped": 113, "active_connections": 2036, "active_cars": 386, "avg_connection_duration": 30.03834808259587, "avg_connection_health": 0.8757973822372476
+    },
+{"timestamp": 190, "cars_completed": 399, "new_connections_made": 59, "old_connections_dropped": 112, "active_connections": 2036, "active_cars": 388, "avg_connection_duration": 29.978772044415415, "avg_connection_health": 0.8643072058702416
+    },
+{"timestamp": 191, "cars_completed": 406, "new_connections_made": 69, "old_connections_dropped": 125, "active_connections": 2057, "active_cars": 386, "avg_connection_duration": 29.95821185617104, "avg_connection_health": 0.8489201065783428
+    },
+{"timestamp": 192, "cars_completed": 409, "new_connections_made": 95, "old_connections_dropped": 176, "active_connections": 2043, "active_cars": 386, "avg_connection_duration": 29.799487508007687, "avg_connection_health": 0.8449255129233657
+    },
+{"timestamp": 193, "cars_completed": 413, "new_connections_made": 61, "old_connections_dropped": 124, "active_connections": 2042, "active_cars": 387, "avg_connection_duration": 29.95784094538486, "avg_connection_health": 0.8388624415434565
+    },
+{"timestamp": 194, "cars_completed": 418, "new_connections_made": 64, "old_connections_dropped": 133, "active_connections": 2043, "active_cars": 385, "avg_connection_duration": 30.00572337042925, "avg_connection_health": 0.8467916692845765
+    },
+{"timestamp": 195, "cars_completed": 425, "new_connections_made": 68, "old_connections_dropped": 143, "active_connections": 2031, "active_cars": 380, "avg_connection_duration": 30.002538071065988, "avg_connection_health": 0.8581308854693666
+    },
+{"timestamp": 196, "cars_completed": 427, "new_connections_made": 74, "old_connections_dropped": 145, "active_connections": 2003, "active_cars": 384, "avg_connection_duration": 29.904851921865156, "avg_connection_health": 0.8587692173773188
+    },
+{"timestamp": 197, "cars_completed": 434, "new_connections_made": 57, "old_connections_dropped": 112, "active_connections": 2023, "active_cars": 384, "avg_connection_duration": 29.979630209965528, "avg_connection_health": 0.8564100483929602
+    },
+{"timestamp": 198, "cars_completed": 437, "new_connections_made": 71, "old_connections_dropped": 141, "active_connections": 2029, "active_cars": 385, "avg_connection_duration": 29.927793339558047, "avg_connection_health": 0.8632879903952874
+    },
+{"timestamp": 199, "cars_completed": 441, "new_connections_made": 62, "old_connections_dropped": 123, "active_connections": 2037, "active_cars": 385, "avg_connection_duration": 30.008674101610904, "avg_connection_health": 0.8543686439367352
+    },
+{"timestamp": 200, "cars_completed": 445, "new_connections_made": 80, "old_connections_dropped": 146, "active_connections": 2039, "active_cars": 388, "avg_connection_duration": 29.95173685828466, "avg_connection_health": 0.8493460270160145
+    },
+{"timestamp": 201, "cars_completed": 455, "new_connections_made": 64, "old_connections_dropped": 125, "active_connections": 2056, "active_cars": 386, "avg_connection_duration": 30.074832009773978, "avg_connection_health": 0.8476095988875133
+    },
+{"timestamp": 202, "cars_completed": 461, "new_connections_made": 125, "old_connections_dropped": 208, "active_connections": 2049, "active_cars": 383, "avg_connection_duration": 29.61589008363202, "avg_connection_health": 0.8560458030305683
+    },
+{"timestamp": 203, "cars_completed": 466, "new_connections_made": 49, "old_connections_dropped": 107, "active_connections": 2034, "active_cars": 380, "avg_connection_duration": 29.897886275677283, "avg_connection_health": 0.8493827092582513
+    },
+{"timestamp": 204, "cars_completed": 470, "new_connections_made": 63, "old_connections_dropped": 139, "active_connections": 2013, "active_cars": 380, "avg_connection_duration": 29.981272294887038, "avg_connection_health": 0.860739012597636
+    },
+{"timestamp": 205, "cars_completed": 471, "new_connections_made": 129, "old_connections_dropped": 184, "active_connections": 2017, "active_cars": 384, "avg_connection_duration": 29.524195885250652, "avg_connection_health": 0.8470791643999023
+    },
+{"timestamp": 206, "cars_completed": 472, "new_connections_made": 64, "old_connections_dropped": 116, "active_connections": 2041, "active_cars": 384, "avg_connection_duration": 29.657629074127488, "avg_connection_health": 0.8409410997068322
+    },
+{"timestamp": 207, "cars_completed": 477, "new_connections_made": 51, "old_connections_dropped": 108, "active_connections": 2035, "active_cars": 381, "avg_connection_duration": 29.887510816267667, "avg_connection_health": 0.8369244054546261
+    },
+{"timestamp": 208, "cars_completed": 482, "new_connections_made": 86, "old_connections_dropped": 157, "active_connections": 2016, "active_cars": 379, "avg_connection_duration": 29.812303290414878, "avg_connection_health": 0.8354423219111758
+    },
+{"timestamp": 209, "cars_completed": 485, "new_connections_made": 56, "old_connections_dropped": 124, "active_connections": 1999, "active_cars": 384, "avg_connection_duration": 29.949171901770416, "avg_connection_health": 0.8349893200278036
+    },
+{"timestamp": 210, "cars_completed": 491, "new_connections_made": 77, "old_connections_dropped": 139, "active_connections": 2023, "active_cars": 383, "avg_connection_duration": 29.906285390713478, "avg_connection_health": 0.8209473718795794
+    },
+{"timestamp": 211, "cars_completed": 497, "new_connections_made": 71, "old_connections_dropped": 152, "active_connections": 2014, "active_cars": 379, "avg_connection_duration": 29.89534555712271, "avg_connection_health": 0.8156919346770295
+    },
+{"timestamp": 212, "cars_completed": 504, "new_connections_made": 62, "old_connections_dropped": 135, "active_connections": 1991, "active_cars": 378, "avg_connection_duration": 29.965653153153152, "avg_connection_health": 0.8053799351630067
+    },
+{"timestamp": 213, "cars_completed": 507, "new_connections_made": 92, "old_connections_dropped": 167, "active_connections": 1984, "active_cars": 378, "avg_connection_duration": 29.747145641882483, "avg_connection_health": 0.8136536740693255
+    },
+{"timestamp": 214, "cars_completed": 513, "new_connections_made": 57, "old_connections_dropped": 125, "active_connections": 1974, "active_cars": 374, "avg_connection_duration": 29.8567454798331, "avg_connection_health": 0.8196536337177278
+    },
+{"timestamp": 215, "cars_completed": 515, "new_connections_made": 72, "old_connections_dropped": 154, "active_connections": 1949, "active_cars": 376, "avg_connection_duration": 29.83342587451416, "avg_connection_health": 0.8220258486141985
+    },
+{"timestamp": 216, "cars_completed": 519, "new_connections_made": 73, "old_connections_dropped": 141, "active_connections": 1961, "active_cars": 375, "avg_connection_duration": 29.83563918096292, "avg_connection_health": 0.8307737210402972
+    },
+{"timestamp": 217, "cars_completed": 522, "new_connections_made": 63, "old_connections_dropped": 131, "active_connections": 1955, "active_cars": 374, "avg_connection_duration": 29.82942313000276, "avg_connection_health": 0.8227489334007279
+    },
+{"timestamp": 218, "cars_completed": 523, "new_connections_made": 71, "old_connections_dropped": 144, "active_connections": 1950, "active_cars": 377, "avg_connection_duration": 29.842148760330577, "avg_connection_health": 0.8239367808048645
+    },
+{"timestamp": 219, "cars_completed": 527, "new_connections_made": 84, "old_connections_dropped": 154, "active_connections": 1973, "active_cars": 386, "avg_connection_duration": 29.740598407905573, "avg_connection_health": 0.8244432830760816
+    },
+{"timestamp": 220, "cars_completed": 531, "new_connections_made": 83, "old_connections_dropped": 149, "active_connections": 2020, "active_cars": 384, "avg_connection_duration": 29.6401412275937, "avg_connection_health": 0.8085571043435804
+    },
+{"timestamp": 221, "cars_completed": 536, "new_connections_made": 76, "old_connections_dropped": 155, "active_connections": 2010, "active_cars": 387, "avg_connection_duration": 29.654555314533624, "avg_connection_health": 0.8076045382908587
+    },
+{"timestamp": 222, "cars_completed": 540, "new_connections_made": 77, "old_connections_dropped": 152, "active_connections": 2026, "active_cars": 384, "avg_connection_duration": 29.600970612024806, "avg_connection_health": 0.8037690393517594
+    },
+{"timestamp": 223, "cars_completed": 544, "new_connections_made": 65, "old_connections_dropped": 140, "active_connections": 2008, "active_cars": 388, "avg_connection_duration": 29.717250673854448, "avg_connection_health": 0.816815288711548
+    },
+{"timestamp": 224, "cars_completed": 548, "new_connections_made": 79, "old_connections_dropped": 158, "active_connections": 2025, "active_cars": 389, "avg_connection_duration": 29.707931404072884, "avg_connection_health": 0.8240343300734903
+    },
+{"timestamp": 225, "cars_completed": 551, "new_connections_made": 70, "old_connections_dropped": 125, "active_connections": 2032, "active_cars": 388, "avg_connection_duration": 29.749468085106383, "avg_connection_health": 0.8212627509522141
+    },
+{"timestamp": 226, "cars_completed": 553, "new_connections_made": 55, "old_connections_dropped": 113, "active_connections": 2026, "active_cars": 393, "avg_connection_duration": 29.93891102257636, "avg_connection_health": 0.8274091267757178
+    },
+{"timestamp": 227, "cars_completed": 559, "new_connections_made": 72, "old_connections_dropped": 131, "active_connections": 2053, "active_cars": 394, "avg_connection_duration": 30.002642007926024, "avg_connection_health": 0.8203053124066824
+    },
+{"timestamp": 228, "cars_completed": 563, "new_connections_made": 73, "old_connections_dropped": 149, "active_connections": 2052, "active_cars": 395, "avg_connection_duration": 30.033385909568874, "avg_connection_health": 0.8071920262070842
+    },
+{"timestamp": 229, "cars_completed": 565, "new_connections_made": 81, "old_connections_dropped": 151, "active_connections": 2061, "active_cars": 398, "avg_connection_duration": 30.050274941084055, "avg_connection_health": 0.7995910565554387
+    },
+{"timestamp": 230, "cars_completed": 569, "new_connections_made": 87, "old_connections_dropped": 174, "active_connections": 2070, "active_cars": 395, "avg_connection_duration": 29.96318537859008, "avg_connection_health": 0.8105779464526002
+    },
+{"timestamp": 231, "cars_completed": 573, "new_connections_made": 66, "old_connections_dropped": 136, "active_connections": 2054, "active_cars": 394, "avg_connection_duration": 30.08372456964006, "avg_connection_health": 0.8080521011562644
+    },
+{"timestamp": 232, "cars_completed": 577, "new_connections_made": 100, "old_connections_dropped": 181, "active_connections": 2050, "active_cars": 395, "avg_connection_duration": 29.959637774902976, "avg_connection_health": 0.811176670622386
+    },
+{"timestamp": 233, "cars_completed": 580, "new_connections_made": 75, "old_connections_dropped": 141, "active_connections": 2057, "active_cars": 395, "avg_connection_duration": 30.027319587628867, "avg_connection_health": 0.8012417405598522
+    },
+{"timestamp": 234, "cars_completed": 587, "new_connections_made": 79, "old_connections_dropped": 156, "active_connections": 2061, "active_cars": 392, "avg_connection_duration": 30.025186327422258, "avg_connection_health": 0.8097354530923098
+    },
+{"timestamp": 235, "cars_completed": 592, "new_connections_made": 72, "old_connections_dropped": 157, "active_connections": 2039, "active_cars": 391, "avg_connection_duration": 30.15568094383175, "avg_connection_health": 0.8143136570817375
+    },
+{"timestamp": 236, "cars_completed": 594, "new_connections_made": 67, "old_connections_dropped": 141, "active_connections": 2029, "active_cars": 392, "avg_connection_duration": 30.26016884113584, "avg_connection_health": 0.8242702032540264
+    },
+{"timestamp": 237, "cars_completed": 598, "new_connections_made": 59, "old_connections_dropped": 112, "active_connections": 2036, "active_cars": 390, "avg_connection_duration": 30.43874425727412, "avg_connection_health": 0.8245775790400816
+    },
+{"timestamp": 238, "cars_completed": 601, "new_connections_made": 58, "old_connections_dropped": 122, "active_connections": 2024, "active_cars": 391, "avg_connection_duration": 30.572120285423036, "avg_connection_health": 0.8234634481802404
+    },
+{"timestamp": 239, "cars_completed": 606, "new_connections_made": 115, "old_connections_dropped": 172, "active_connections": 2044, "active_cars": 394, "avg_connection_duration": 30.240321769733534, "avg_connection_health": 0.8055488946982733
+    },
+{"timestamp": 240, "cars_completed": 609, "new_connections_made": 112, "old_connections_dropped": 183, "active_connections": 2060, "active_cars": 391, "avg_connection_duration": 29.945490584737364, "avg_connection_health": 0.8278828367643964
+    },
+{"timestamp": 241, "cars_completed": 615, "new_connections_made": 58, "old_connections_dropped": 123, "active_connections": 2044, "active_cars": 385, "avg_connection_duration": 30.090188305252724, "avg_connection_health": 0.8309532222524115
+    },
+{"timestamp": 242, "cars_completed": 616, "new_connections_made": 105, "old_connections_dropped": 155, "active_connections": 2023, "active_cars": 384, "avg_connection_duration": 29.87972676262503, "avg_connection_health": 0.8006799904984936
+    },
+{"timestamp": 243, "cars_completed": 625, "new_connections_made": 53, "old_connections_dropped": 113, "active_connections": 2013, "active_cars": 375, "avg_connection_duration": 29.999511837930193, "avg_connection_health": 0.8031399759838349
+    },
+{"timestamp": 244, "cars_completed": 626, "new_connections_made": 61, "old_connections_dropped": 144, "active_connections": 1964, "active_cars": 374, "avg_connection_duration": 30.102244997559787, "avg_connection_health": 0.8029116665291446
+    },
+{"timestamp": 245, "cars_completed": 632, "new_connections_made": 61, "old_connections_dropped": 123, "active_connections": 1960, "active_cars": 368, "avg_connection_duration": 30.15759941449134, "avg_connection_health": 0.805051194473892
+    },
+{"timestamp": 246, "cars_completed": 637, "new_connections_made": 100, "old_connections_dropped": 164, "active_connections": 1932, "active_cars": 363, "avg_connection_duration": 29.966007714561233, "avg_connection_health": 0.7948358485769097
+    },
+{"timestamp": 247, "cars_completed": 639, "new_connections_made": 58, "old_connections_dropped": 125, "active_connections": 1908, "active_cars": 361, "avg_connection_duration": 30.032063645130183, "avg_connection_health": 0.8035351846287405
+    },
+{"timestamp": 248, "cars_completed": 645, "new_connections_made": 49, "old_connections_dropped": 103, "active_connections": 1897, "active_cars": 355, "avg_connection_duration": 30.274590163934427, "avg_connection_health": 0.8167040384307083
+    },
+{"timestamp": 249, "cars_completed": 650, "new_connections_made": 42, "old_connections_dropped": 100, "active_connections": 1863, "active_cars": 350, "avg_connection_duration": 30.475536273800916, "avg_connection_health": 0.813385865737235
+    },
+{"timestamp": 250, "cars_completed": 651, "new_connections_made": 92, "old_connections_dropped": 156, "active_connections": 1838, "active_cars": 349, "avg_connection_duration": 30.322981366459626, "avg_connection_health": 0.8013912363532906
+    },
+{"timestamp": 251, "cars_completed": 653, "new_connections_made": 54, "old_connections_dropped": 113, "active_connections": 1830, "active_cars": 347, "avg_connection_duration": 30.49295101553166, "avg_connection_health": 0.8045987659233614
+    },
+{"timestamp": 252, "cars_completed": 661, "new_connections_made": 62, "old_connections_dropped": 134, "active_connections": 1814, "active_cars": 339, "avg_connection_duration": 30.623715037054744, "avg_connection_health": 0.8093560942542842
+    },
+{"timestamp": 253, "cars_completed": 662, "new_connections_made": 91, "old_connections_dropped": 153, "active_connections": 1769, "active_cars": 338, "avg_connection_duration": 30.427930056710775, "avg_connection_health": 0.789536424634344
+    },
+{"timestamp": 254, "cars_completed": 664, "new_connections_made": 48, "old_connections_dropped": 97, "active_connections": 1765, "active_cars": 336, "avg_connection_duration": 30.565217391304348, "avg_connection_health": 0.7831070231956373
+    },
+{"timestamp": 255, "cars_completed": 667, "new_connections_made": 51, "old_connections_dropped": 108, "active_connections": 1753, "active_cars": 333, "avg_connection_duration": 30.699290780141844, "avg_connection_health": 0.7857126304406713
+    },
+{"timestamp": 256, "cars_completed": 670, "new_connections_made": 53, "old_connections_dropped": 115, "active_connections": 1735, "active_cars": 330, "avg_connection_duration": 30.8436982738236, "avg_connection_health": 0.7907324376423517
+    },
+{"timestamp": 257, "cars_completed": 676, "new_connections_made": 54, "old_connections_dropped": 119, "active_connections": 1713, "active_cars": 324, "avg_connection_duration": 30.917238117758334, "avg_connection_health": 0.7977045433648021
+    },
+{"timestamp": 258, "cars_completed": 679, "new_connections_made": 56, "old_connections_dropped": 118, "active_connections": 1684, "active_cars": 321, "avg_connection_duration": 30.949728581543546, "avg_connection_health": 0.7964274243582105
+    },
+{"timestamp": 259, "cars_completed": 684, "new_connections_made": 49, "old_connections_dropped": 110, "active_connections": 1663, "active_cars": 316, "avg_connection_duration": 31.01133412042503, "avg_connection_health": 0.8068342144076646
+    },
+{"timestamp": 260, "cars_completed": 688, "new_connections_made": 33, "old_connections_dropped": 83, "active_connections": 1631, "active_cars": 312, "avg_connection_duration": 31.20760510155881, "avg_connection_health": 0.804008631227083
+    },
+{"timestamp": 261, "cars_completed": 692, "new_connections_made": 48, "old_connections_dropped": 97, "active_connections": 1615, "active_cars": 308, "avg_connection_duration": 31.28490566037736, "avg_connection_health": 0.8005348531355392
+    },
+{"timestamp": 262, "cars_completed": 695, "new_connections_made": 49, "old_connections_dropped": 108, "active_connections": 1593, "active_cars": 305, "avg_connection_duration": 31.32374439990568, "avg_connection_health": 0.8100625077831143
+    },
+{"timestamp": 263, "cars_completed": 697, "new_connections_made": 40, "old_connections_dropped": 88, "active_connections": 1576, "active_cars": 303, "avg_connection_duration": 31.363357698655978, "avg_connection_health": 0.8103971163283786
+    },
+{"timestamp": 264, "cars_completed": 702, "new_connections_made": 41, "old_connections_dropped": 83, "active_connections": 1569, "active_cars": 298, "avg_connection_duration": 31.46039603960396, "avg_connection_health": 0.8092245671298913
+    },
+{"timestamp": 265, "cars_completed": 704, "new_connections_made": 42, "old_connections_dropped": 103, "active_connections": 1535, "active_cars": 296, "avg_connection_duration": 31.53066037735849, "avg_connection_health": 0.8109758171341462
+    },
+{"timestamp": 266, "cars_completed": 709, "new_connections_made": 45, "old_connections_dropped": 99, "active_connections": 1520, "active_cars": 291, "avg_connection_duration": 31.525955639452572, "avg_connection_health": 0.8175825179623031
+    },
+{"timestamp": 267, "cars_completed": 715, "new_connections_made": 94, "old_connections_dropped": 152, "active_connections": 1496, "active_cars": 285, "avg_connection_duration": 31.268548763415772, "avg_connection_health": 0.8146003307977615
+    },
+{"timestamp": 268, "cars_completed": 720, "new_connections_made": 43, "old_connections_dropped": 105, "active_connections": 1459, "active_cars": 280, "avg_connection_duration": 31.37759626604434, "avg_connection_health": 0.8242562007423304
+    },
+{"timestamp": 269, "cars_completed": 726, "new_connections_made": 83, "old_connections_dropped": 125, "active_connections": 1438, "active_cars": 274, "avg_connection_duration": 31.132410611303346, "avg_connection_health": 0.7964998598325925
+    },
+{"timestamp": 270, "cars_completed": 728, "new_connections_made": 108, "old_connections_dropped": 155, "active_connections": 1415, "active_cars": 272, "avg_connection_duration": 30.672945982750793, "avg_connection_health": 0.8078113273970847
+    },
+{"timestamp": 271, "cars_completed": 729, "new_connections_made": 44, "old_connections_dropped": 87, "active_connections": 1407, "active_cars": 271, "avg_connection_duration": 30.67936507936508, "avg_connection_health": 0.840488408440604
+    },
+{"timestamp": 272, "cars_completed": 732, "new_connections_made": 44, "old_connections_dropped": 95, "active_connections": 1397, "active_cars": 268, "avg_connection_duration": 30.75402768323122, "avg_connection_health": 0.864810068108353
+    },
+{"timestamp": 273, "cars_completed": 734, "new_connections_made": 30, "old_connections_dropped": 67, "active_connections": 1381, "active_cars": 266, "avg_connection_duration": 30.808486498751986, "avg_connection_health": 0.8635126946069782
+    },
+{"timestamp": 274, "cars_completed": 740, "new_connections_made": 38, "old_connections_dropped": 82, "active_connections": 1369, "active_cars": 260, "avg_connection_duration": 30.944406625822555, "avg_connection_health": 0.8644258653557324
+    },
+{"timestamp": 275, "cars_completed": 747, "new_connections_made": 32, "old_connections_dropped": 84, "active_connections": 1331, "active_cars": 253, "avg_connection_duration": 31.07921016795279, "avg_connection_health": 0.8596559307039804
+    },
+{"timestamp": 276, "cars_completed": 750, "new_connections_made": 42, "old_connections_dropped": 90, "active_connections": 1296, "active_cars": 250, "avg_connection_duration": 31.048675571654968, "avg_connection_health": 0.8565328950574527
+    },
+{"timestamp": 277, "cars_completed": 754, "new_connections_made": 60, "old_connections_dropped": 98, "active_connections": 1280, "active_cars": 246, "avg_connection_duration": 30.963337831758885, "avg_connection_health": 0.8355210976147611
+    },
+{"timestamp": 278, "cars_completed": 758, "new_connections_made": 33, "old_connections_dropped": 80, "active_connections": 1254, "active_cars": 242, "avg_connection_duration": 30.97862286228623, "avg_connection_health": 0.8420236699749916
+    },
+{"timestamp": 279, "cars_completed": 761, "new_connections_made": 33, "old_connections_dropped": 74, "active_connections": 1234, "active_cars": 239, "avg_connection_duration": 30.999774926851227, "avg_connection_health": 0.843079044249532
+    },
+{"timestamp": 280, "cars_completed": 765, "new_connections_made": 37, "old_connections_dropped": 83, "active_connections": 1216, "active_cars": 235, "avg_connection_duration": 31.03758721584515, "avg_connection_health": 0.8378828530999369
+    },
+{"timestamp": 281, "cars_completed": 775, "new_connections_made": 42, "old_connections_dropped": 80, "active_connections": 1195, "active_cars": 225, "avg_connection_duration": 31.014359434597264, "avg_connection_health": 0.8318751256028891
+    },
+{"timestamp": 282, "cars_completed": 779, "new_connections_made": 29, "old_connections_dropped": 81, "active_connections": 1142, "active_cars": 221, "avg_connection_duration": 31.037693515817814, "avg_connection_health": 0.8182997205243298
+    },
+{"timestamp": 283, "cars_completed": 787, "new_connections_made": 32, "old_connections_dropped": 78, "active_connections": 1112, "active_cars": 213, "avg_connection_duration": 31.10587707492149, "avg_connection_health": 0.81726952931645
+    },
+{"timestamp": 284, "cars_completed": 790, "new_connections_made": 28, "old_connections_dropped": 80, "active_connections": 1064, "active_cars": 210, "avg_connection_duration": 31.126962763571107, "avg_connection_health": 0.8171369383159749
+    },
+{"timestamp": 285, "cars_completed": 796, "new_connections_made": 30, "old_connections_dropped": 68, "active_connections": 1047, "active_cars": 204, "avg_connection_duration": 31.15455361148497, "avg_connection_health": 0.8155954354375903
+    },
+{"timestamp": 286, "cars_completed": 800, "new_connections_made": 37, "old_connections_dropped": 88, "active_connections": 1015, "active_cars": 200, "avg_connection_duration": 31.118834080717487, "avg_connection_health": 0.8109537087560519
+    },
+{"timestamp": 287, "cars_completed": 806, "new_connections_made": 25, "old_connections_dropped": 53, "active_connections": 999, "active_cars": 194, "avg_connection_duration": 31.161514336917563, "avg_connection_health": 0.7957848783011554
+    },
+{"timestamp": 288, "cars_completed": 813, "new_connections_made": 58, "old_connections_dropped": 111, "active_connections": 972, "active_cars": 187, "avg_connection_duration": 30.997768355277838, "avg_connection_health": 0.8027387102423688
+    },
+{"timestamp": 289, "cars_completed": 813, "new_connections_made": 53, "old_connections_dropped": 104, "active_connections": 935, "active_cars": 187, "avg_connection_duration": 30.799377916018663, "avg_connection_health": 0.8385420918227683
+    },
+{"timestamp": 290, "cars_completed": 816, "new_connections_made": 23, "old_connections_dropped": 54, "active_connections": 927, "active_cars": 184, "avg_connection_duration": 30.868801423171004, "avg_connection_health": 0.8472293272099614
+    },
+{"timestamp": 291, "cars_completed": 821, "new_connections_made": 22, "old_connections_dropped": 53, "active_connections": 909, "active_cars": 179, "avg_connection_duration": 30.928174338447853, "avg_connection_health": 0.8481672141963276
+    },
+{"timestamp": 292, "cars_completed": 824, "new_connections_made": 49, "old_connections_dropped": 81, "active_connections": 893, "active_cars": 176, "avg_connection_duration": 30.769077637690778, "avg_connection_health": 0.8480100179114457
+    },
+{"timestamp": 293, "cars_completed": 827, "new_connections_made": 30, "old_connections_dropped": 62, "active_connections": 869, "active_cars": 173, "avg_connection_duration": 30.808609271523178, "avg_connection_health": 0.8507576737922825
+    },
+{"timestamp": 294, "cars_completed": 831, "new_connections_made": 18, "old_connections_dropped": 47, "active_connections": 849, "active_cars": 169, "avg_connection_duration": 30.877677191432987, "avg_connection_health": 0.8537571072968593
+    },
+{"timestamp": 295, "cars_completed": 832, "new_connections_made": 14, "old_connections_dropped": 44, "active_connections": 821, "active_cars": 168, "avg_connection_duration": 30.92555776452397, "avg_connection_health": 0.8454879760525211
+    },
+{"timestamp": 296, "cars_completed": 835, "new_connections_made": 23, "old_connections_dropped": 53, "active_connections": 811, "active_cars": 165, "avg_connection_duration": 30.93193370165746, "avg_connection_health": 0.8577171355161131
+    },
+{"timestamp": 297, "cars_completed": 840, "new_connections_made": 40, "old_connections_dropped": 69, "active_connections": 796, "active_cars": 160, "avg_connection_duration": 30.83711204050187, "avg_connection_health": 0.8596485605773249
+    },
+{"timestamp": 298, "cars_completed": 843, "new_connections_made": 13, "old_connections_dropped": 44, "active_connections": 763, "active_cars": 157, "avg_connection_duration": 30.96190266461132, "avg_connection_health": 0.860998796206353
+    },
+{"timestamp": 299, "cars_completed": 848, "new_connections_made": 13, "old_connections_dropped": 35, "active_connections": 745, "active_cars": 152, "avg_connection_duration": 31.05857740585774, "avg_connection_health": 0.8617177504113829
+    },
+{"timestamp": 300, "cars_completed": 851, "new_connections_made": 29, "old_connections_dropped": 53, "active_connections": 721, "active_cars": 149, "avg_connection_duration": 31.003290917068888, "avg_connection_health": 0.8575580343955201
+    },
+{"timestamp": 301, "cars_completed": 857, "new_connections_made": 14, "old_connections_dropped": 34, "active_connections": 705, "active_cars": 143, "avg_connection_duration": 31.03859649122807, "avg_connection_health": 0.8694518230353182
+    },
+{"timestamp": 302, "cars_completed": 858, "new_connections_made": 28, "old_connections_dropped": 48, "active_connections": 677, "active_cars": 142, "avg_connection_duration": 30.988867059593975, "avg_connection_health": 0.8354898296737556
+    },
+{"timestamp": 303, "cars_completed": 860, "new_connections_made": 12, "old_connections_dropped": 29, "active_connections": 669, "active_cars": 140, "avg_connection_duration": 31.036681222707422, "avg_connection_health": 0.8419467920521021
+    },
+{"timestamp": 304, "cars_completed": 861, "new_connections_made": 28, "old_connections_dropped": 45, "active_connections": 667, "active_cars": 139, "avg_connection_duration": 30.973649825783973, "avg_connection_health": 0.8369455199601349
+    },
+{"timestamp": 305, "cars_completed": 864, "new_connections_made": 13, "old_connections_dropped": 27, "active_connections": 663, "active_cars": 136, "avg_connection_duration": 31.047898976703678, "avg_connection_health": 0.8249729063943342
+    },
+{"timestamp": 306, "cars_completed": 870, "new_connections_made": 32, "old_connections_dropped": 75, "active_connections": 643, "active_cars": 130, "avg_connection_duration": 30.93270905923345, "avg_connection_health": 0.8483030524173879
+    },
+{"timestamp": 307, "cars_completed": 873, "new_connections_made": 32, "old_connections_dropped": 66, "active_connections": 607, "active_cars": 127, "avg_connection_duration": 30.80247449533319, "avg_connection_health": 0.8244146618428714
+    },
+{"timestamp": 308, "cars_completed": 877, "new_connections_made": 30, "old_connections_dropped": 51, "active_connections": 597, "active_cars": 123, "avg_connection_duration": 30.728846570006493, "avg_connection_health": 0.8277754192135781
+    },
+{"timestamp": 309, "cars_completed": 881, "new_connections_made": 33, "old_connections_dropped": 60, "active_connections": 574, "active_cars": 119, "avg_connection_duration": 30.684993531694698, "avg_connection_health": 0.850493257877368
+    },
+{"timestamp": 310, "cars_completed": 883, "new_connections_made": 19, "old_connections_dropped": 40, "active_connections": 557, "active_cars": 117, "avg_connection_duration": 30.624246339362617, "avg_connection_health": 0.8304176934705885
+    },
+{"timestamp": 311, "cars_completed": 887, "new_connections_made": 15, "old_connections_dropped": 40, "active_connections": 541, "active_cars": 113, "avg_connection_duration": 30.640241275312366, "avg_connection_health": 0.829693272897728
+    },
+{"timestamp": 312, "cars_completed": 889, "new_connections_made": 25, "old_connections_dropped": 41, "active_connections": 529, "active_cars": 111, "avg_connection_duration": 30.58569587628866, "avg_connection_health": 0.802650364724094
+    },
+{"timestamp": 313, "cars_completed": 893, "new_connections_made": 18, "old_connections_dropped": 42, "active_connections": 517, "active_cars": 107, "avg_connection_duration": 30.54982817869416, "avg_connection_health": 0.8038384829672509
+    },
+{"timestamp": 314, "cars_completed": 894, "new_connections_made": 27, "old_connections_dropped": 53, "active_connections": 499, "active_cars": 106, "avg_connection_duration": 30.498177920685958, "avg_connection_health": 0.7846325781470551
+    },
+{"timestamp": 315, "cars_completed": 896, "new_connections_made": 12, "old_connections_dropped": 25, "active_connections": 495, "active_cars": 104, "avg_connection_duration": 30.5096442348907, "avg_connection_health": 0.7843855077091317
+    },
+{"timestamp": 316, "cars_completed": 898, "new_connections_made": 28, "old_connections_dropped": 56, "active_connections": 481, "active_cars": 102, "avg_connection_duration": 30.40059918681789, "avg_connection_health": 0.8171207771115575
+    },
+{"timestamp": 317, "cars_completed": 900, "new_connections_made": 24, "old_connections_dropped": 43, "active_connections": 471, "active_cars": 100, "avg_connection_duration": 30.33810337462623, "avg_connection_health": 0.8461851670678816
+    },
+{"timestamp": 318, "cars_completed": 905, "new_connections_made": 16, "old_connections_dropped": 27, "active_connections": 464, "active_cars": 95, "avg_connection_duration": 30.34904051172708, "avg_connection_health": 0.8385368490460929
+    },
+{"timestamp": 319, "cars_completed": 909, "new_connections_made": 32, "old_connections_dropped": 52, "active_connections": 444, "active_cars": 91, "avg_connection_duration": 30.25132668223307, "avg_connection_health": 0.8394447550136285
+    },
+{"timestamp": 320, "cars_completed": 911, "new_connections_made": 6, "old_connections_dropped": 20, "active_connections": 424, "active_cars": 89, "avg_connection_duration": 30.307659664757054, "avg_connection_health": 0.8439126434229377
+    },
+{"timestamp": 321, "cars_completed": 911, "new_connections_made": 24, "old_connections_dropped": 47, "active_connections": 406, "active_cars": 89, "avg_connection_duration": 30.286682193521067, "avg_connection_health": 0.871322636204948
+    },
+{"timestamp": 322, "cars_completed": 912, "new_connections_made": 6, "old_connections_dropped": 16, "active_connections": 402, "active_cars": 88, "avg_connection_duration": 30.31857657276001, "avg_connection_health": 0.8797669395333334
+    },
+{"timestamp": 323, "cars_completed": 916, "new_connections_made": 11, "old_connections_dropped": 25, "active_connections": 396, "active_cars": 84, "avg_connection_duration": 30.36178775683118, "avg_connection_health": 0.8780247242500541
+    },
+{"timestamp": 324, "cars_completed": 923, "new_connections_made": 18, "old_connections_dropped": 34, "active_connections": 375, "active_cars": 77, "avg_connection_duration": 30.320938094231987, "avg_connection_health": 0.8631523011909374
+    },
+{"timestamp": 325, "cars_completed": 924, "new_connections_made": 24, "old_connections_dropped": 52, "active_connections": 337, "active_cars": 76, "avg_connection_duration": 30.26727042965459, "avg_connection_health": 0.8537950294278137
+    },
+{"timestamp": 326, "cars_completed": 925, "new_connections_made": 14, "old_connections_dropped": 23, "active_connections": 334, "active_cars": 75, "avg_connection_duration": 30.240429112326463, "avg_connection_health": 0.8363909692976679
+    },
+{"timestamp": 327, "cars_completed": 926, "new_connections_made": 8, "old_connections_dropped": 17, "active_connections": 330, "active_cars": 74, "avg_connection_duration": 30.27507886435331, "avg_connection_health": 0.813181326453597
+    },
+{"timestamp": 328, "cars_completed": 927, "new_connections_made": 14, "old_connections_dropped": 32, "active_connections": 323, "active_cars": 73, "avg_connection_duration": 30.275347076146403, "avg_connection_health": 0.8054440975083946
+    },
+{"timestamp": 329, "cars_completed": 930, "new_connections_made": 13, "old_connections_dropped": 39, "active_connections": 307, "active_cars": 70, "avg_connection_duration": 30.313118551273952, "avg_connection_health": 0.846307381141727
+    },
+{"timestamp": 330, "cars_completed": 932, "new_connections_made": 12, "old_connections_dropped": 22, "active_connections": 297, "active_cars": 68, "avg_connection_duration": 30.280277544154753, "avg_connection_health": 0.796410821202063
+    },
+{"timestamp": 331, "cars_completed": 932, "new_connections_made": 5, "old_connections_dropped": 18, "active_connections": 283, "active_cars": 68, "avg_connection_duration": 30.305993690851736, "avg_connection_health": 0.7954518685481808
+    },
+{"timestamp": 332, "cars_completed": 936, "new_connections_made": 11, "old_connections_dropped": 24, "active_connections": 281, "active_cars": 64, "avg_connection_duration": 30.296381994110224, "avg_connection_health": 0.8140162393390187
+    },
+{"timestamp": 333, "cars_completed": 937, "new_connections_made": 10, "old_connections_dropped": 25, "active_connections": 259, "active_cars": 63, "avg_connection_duration": 30.29144778314772, "avg_connection_health": 0.8025897108860823
+    },
+{"timestamp": 334, "cars_completed": 940, "new_connections_made": 9, "old_connections_dropped": 24, "active_connections": 250, "active_cars": 60, "avg_connection_duration": 30.28946815219676, "avg_connection_health": 0.8265147846022181
+    },
+{"timestamp": 335, "cars_completed": 941, "new_connections_made": 10, "old_connections_dropped": 29, "active_connections": 232, "active_cars": 59, "avg_connection_duration": 30.2280849274753, "avg_connection_health": 0.8494184188020145
+    },
+{"timestamp": 336, "cars_completed": 941, "new_connections_made": 4, "old_connections_dropped": 15, "active_connections": 222, "active_cars": 59, "avg_connection_duration": 30.252155625657203, "avg_connection_health": 0.8494848570789965
+    },
+{"timestamp": 337, "cars_completed": 943, "new_connections_made": 10, "old_connections_dropped": 18, "active_connections": 224, "active_cars": 57, "avg_connection_duration": 30.241799831791422, "avg_connection_health": 0.8577131328835511
+    },
+{"timestamp": 338, "cars_completed": 944, "new_connections_made": 8, "old_connections_dropped": 18, "active_connections": 214, "active_cars": 56, "avg_connection_duration": 30.24311830216432, "avg_connection_health": 0.8430474914235659
+    },
+{"timestamp": 339, "cars_completed": 945, "new_connections_made": 2, "old_connections_dropped": 7, "active_connections": 208, "active_cars": 55, "avg_connection_duration": 30.27841983610002, "avg_connection_health": 0.8083533924699954
+    },
+{"timestamp": 340, "cars_completed": 945, "new_connections_made": 15, "old_connections_dropped": 22, "active_connections": 208, "active_cars": 55, "avg_connection_duration": 30.253199076987624, "avg_connection_health": 0.8321560778265735
+    },
+{"timestamp": 341, "cars_completed": 947, "new_connections_made": 5, "old_connections_dropped": 12, "active_connections": 206, "active_cars": 53, "avg_connection_duration": 30.252622744439783, "avg_connection_health": 0.821870028040839
+    },
+{"timestamp": 342, "cars_completed": 948, "new_connections_made": 7, "old_connections_dropped": 18, "active_connections": 196, "active_cars": 52, "avg_connection_duration": 30.222991399202854, "avg_connection_health": 0.8503879231732208
+    },
+{"timestamp": 343, "cars_completed": 951, "new_connections_made": 3, "old_connections_dropped": 9, "active_connections": 190, "active_cars": 49, "avg_connection_duration": 30.250262219425213, "avg_connection_health": 0.8469226560239167
+    },
+{"timestamp": 344, "cars_completed": 954, "new_connections_made": 6, "old_connections_dropped": 19, "active_connections": 174, "active_cars": 46, "avg_connection_duration": 30.256555485630376, "avg_connection_health": 0.8502565854305185
+    },
+{"timestamp": 345, "cars_completed": 955, "new_connections_made": 8, "old_connections_dropped": 15, "active_connections": 162, "active_cars": 45, "avg_connection_duration": 30.241307080016757, "avg_connection_health": 0.7607874340952173
+    },
+{"timestamp": 346, "cars_completed": 959, "new_connections_made": 6, "old_connections_dropped": 13, "active_connections": 158, "active_cars": 41, "avg_connection_duration": 30.25109947643979, "avg_connection_health": 0.7668723501908424
+    },
+{"timestamp": 347, "cars_completed": 961, "new_connections_made": 8, "old_connections_dropped": 21, "active_connections": 140, "active_cars": 39, "avg_connection_duration": 30.24126386273279, "avg_connection_health": 0.7613106802543372
+    },
+{"timestamp": 348, "cars_completed": 964, "new_connections_made": 9, "old_connections_dropped": 15, "active_connections": 136, "active_cars": 36, "avg_connection_duration": 30.21948160535117, "avg_connection_health": 0.7494411961885801
+    },
+{"timestamp": 349, "cars_completed": 965, "new_connections_made": 4, "old_connections_dropped": 13, "active_connections": 122, "active_cars": 35, "avg_connection_duration": 30.22524028416214, "avg_connection_health": 0.7665034949869876
+    },
+{"timestamp": 350, "cars_completed": 965, "new_connections_made": 6, "old_connections_dropped": 16, "active_connections": 114, "active_cars": 35, "avg_connection_duration": 30.229419139155873, "avg_connection_health": 0.7636004392424551
+    },
+{"timestamp": 351, "cars_completed": 965, "new_connections_made": 3, "old_connections_dropped": 4, "active_connections": 116, "active_cars": 35, "avg_connection_duration": 30.224148736160434, "avg_connection_health": 0.7587290074207602
+    },
+{"timestamp": 352, "cars_completed": 966, "new_connections_made": 1, "old_connections_dropped": 2, "active_connections": 116, "active_cars": 34, "avg_connection_duration": 30.243785251723416, "avg_connection_health": 0.7291076358890878
+    },
+{"timestamp": 353, "cars_completed": 967, "new_connections_made": 6, "old_connections_dropped": 13, "active_connections": 112, "active_cars": 33, "avg_connection_duration": 30.225563909774436, "avg_connection_health": 0.7297557785154243
+    },
+{"timestamp": 354, "cars_completed": 967, "new_connections_made": 4, "old_connections_dropped": 13, "active_connections": 104, "active_cars": 33, "avg_connection_duration": 30.23083350741592, "avg_connection_health": 0.7462817377688405
+    },
+{"timestamp": 355, "cars_completed": 967, "new_connections_made": 3, "old_connections_dropped": 8, "active_connections": 102, "active_cars": 33, "avg_connection_duration": 30.239030505641455, "avg_connection_health": 0.7561828810015016
+    },
+{"timestamp": 356, "cars_completed": 967, "new_connections_made": 3, "old_connections_dropped": 6, "active_connections": 102, "active_cars": 33, "avg_connection_duration": 30.197241955704136, "avg_connection_health": 0.7466752398086566
+    },
+{"timestamp": 357, "cars_completed": 970, "new_connections_made": 4, "old_connections_dropped": 8, "active_connections": 102, "active_cars": 30, "avg_connection_duration": 30.180108650229837, "avg_connection_health": 0.7808969223347123
+    },
+{"timestamp": 358, "cars_completed": 970, "new_connections_made": 3, "old_connections_dropped": 11, "active_connections": 90, "active_cars": 30, "avg_connection_duration": 30.184875705034468, "avg_connection_health": 0.8214716327800444
+    },
+{"timestamp": 359, "cars_completed": 971, "new_connections_made": 2, "old_connections_dropped": 6, "active_connections": 88, "active_cars": 29, "avg_connection_duration": 30.190137902214794, "avg_connection_health": 0.9055263980028821
+    },
+{"timestamp": 360, "cars_completed": 974, "new_connections_made": 1, "old_connections_dropped": 2, "active_connections": 86, "active_cars": 26, "avg_connection_duration": 30.201587633173176, "avg_connection_health": 0.9380233919304573
+    },
+{"timestamp": 361, "cars_completed": 978, "new_connections_made": 2, "old_connections_dropped": 13, "active_connections": 66, "active_cars": 22, "avg_connection_duration": 30.20493001880092, "avg_connection_health": 1.0918493496364063
+    },
+{"timestamp": 362, "cars_completed": 978, "new_connections_made": 0, "old_connections_dropped": 6, "active_connections": 52, "active_cars": 22, "avg_connection_duration": 30.21579277209108, "avg_connection_health": 1.0438330149252009
+    },
+{"timestamp": 363, "cars_completed": 979, "new_connections_made": 2, "old_connections_dropped": 0, "active_connections": 56, "active_cars": 21, "avg_connection_duration": 30.214449780747547, "avg_connection_health": 0.9005253890789772
+    },
+{"timestamp": 364, "cars_completed": 979, "new_connections_made": 1, "old_connections_dropped": 3, "active_connections": 52, "active_cars": 21, "avg_connection_duration": 30.218789144050103, "avg_connection_health": 0.7536143115211925
+    },
+{"timestamp": 365, "cars_completed": 979, "new_connections_made": 2, "old_connections_dropped": 6, "active_connections": 50, "active_cars": 21, "avg_connection_duration": 30.219461265399875, "avg_connection_health": 0.7762990738081592
+    },
+{"timestamp": 366, "cars_completed": 979, "new_connections_made": 2, "old_connections_dropped": 6, "active_connections": 48, "active_cars": 21, "avg_connection_duration": 30.22472848788638, "avg_connection_health": 0.7813459955289769
+    },
+{"timestamp": 367, "cars_completed": 979, "new_connections_made": 1, "old_connections_dropped": 6, "active_connections": 44, "active_cars": 21, "avg_connection_duration": 30.185541161721687, "avg_connection_health": 0.8445675955299432
+    },
+{"timestamp": 368, "cars_completed": 979, "new_connections_made": 0, "old_connections_dropped": 2, "active_connections": 42, "active_cars": 21, "avg_connection_duration": 30.196656217345872, "avg_connection_health": 0.8626142716083604
+    },
+{"timestamp": 369, "cars_completed": 979, "new_connections_made": 4, "old_connections_dropped": 2, "active_connections": 48, "active_cars": 21, "avg_connection_duration": 30.17627401837928, "avg_connection_health": 0.8179095396687414
+    },
+{"timestamp": 370, "cars_completed": 979, "new_connections_made": 0, "old_connections_dropped": 2, "active_connections": 46, "active_cars": 21, "avg_connection_duration": 30.19197827449342, "avg_connection_health": 0.8324109066927453
+    },
+{"timestamp": 371, "cars_completed": 979, "new_connections_made": 5, "old_connections_dropped": 2, "active_connections": 54, "active_cars": 21, "avg_connection_duration": 30.17386766854519, "avg_connection_health": 0.7014345933012829
+    },
+{"timestamp": 372, "cars_completed": 979, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 54, "active_cars": 21, "avg_connection_duration": 30.185138801920267, "avg_connection_health": 0.721166729502266
+    },
+{"timestamp": 373, "cars_completed": 981, "new_connections_made": 1, "old_connections_dropped": 2, "active_connections": 54, "active_cars": 19, "avg_connection_duration": 30.17428511792945, "avg_connection_health": 0.7324889989601701
+    },
+{"timestamp": 374, "cars_completed": 983, "new_connections_made": 0, "old_connections_dropped": 3, "active_connections": 48, "active_cars": 17, "avg_connection_duration": 30.184303903151743, "avg_connection_health": 0.706632053050202
+    },
+{"timestamp": 375, "cars_completed": 985, "new_connections_made": 3, "old_connections_dropped": 11, "active_connections": 36, "active_cars": 15, "avg_connection_duration": 30.17237061769616, "avg_connection_health": 0.6218378771684228
+    },
+{"timestamp": 376, "cars_completed": 987, "new_connections_made": 2, "old_connections_dropped": 11, "active_connections": 24, "active_cars": 13, "avg_connection_duration": 30.168858275934042, "avg_connection_health": 0.8051127516741409
+    },
+{"timestamp": 377, "cars_completed": 989, "new_connections_made": 0, "old_connections_dropped": 2, "active_connections": 20, "active_cars": 11, "avg_connection_duration": 30.173032769776665, "avg_connection_health": 0.8681952854658169
+    },
+{"timestamp": 378, "cars_completed": 990, "new_connections_made": 0, "old_connections_dropped": 4, "active_connections": 12, "active_cars": 10, "avg_connection_duration": 30.175537466082236, "avg_connection_health": 1.0712058123807546
+    },
+{"timestamp": 379, "cars_completed": 990, "new_connections_made": 0, "old_connections_dropped": 2, "active_connections": 8, "active_cars": 10, "avg_connection_duration": 30.177207263619287, "avg_connection_health": 1.1239618559125204
+    },
+{"timestamp": 380, "cars_completed": 990, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 8, "active_cars": 10, "avg_connection_duration": 30.178877061156335, "avg_connection_health": 1.1850784206901943
+    },
+{"timestamp": 381, "cars_completed": 991, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 8, "active_cars": 9, "avg_connection_duration": 30.180546858693383, "avg_connection_health": 1.2107005881735915
+    },
+{"timestamp": 382, "cars_completed": 991, "new_connections_made": 1, "old_connections_dropped": 2, "active_connections": 6, "active_cars": 9, "avg_connection_duration": 30.175292153589314, "avg_connection_health": 0.5894928751638823
+    },
+{"timestamp": 383, "cars_completed": 993, "new_connections_made": 0, "old_connections_dropped": 2, "active_connections": 4, "active_cars": 7, "avg_connection_duration": 30.173032769776665, "avg_connection_health": 0.9355851715341306
+    },
+{"timestamp": 384, "cars_completed": 993, "new_connections_made": 1, "old_connections_dropped": 2, "active_connections": 2, "active_cars": 7, "avg_connection_duration": 30.1669449081803, "avg_connection_health": 0.17475721233447739
+    },
+{"timestamp": 385, "cars_completed": 993, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 2, "active_cars": 7, "avg_connection_duration": 30.167362270450752, "avg_connection_health": 0.39035339951008075
+    },
+{"timestamp": 386, "cars_completed": 993, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 2, "active_cars": 7, "avg_connection_duration": 30.167779632721203, "avg_connection_health": 0.6048131759239777
+    },
+{"timestamp": 387, "cars_completed": 994, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 2, "active_cars": 6, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0.7361428247823281
+    },
+{"timestamp": 388, "cars_completed": 994, "new_connections_made": 0, "old_connections_dropped": 1, "active_connections": 0, "active_cars": 6, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 389, "cars_completed": 994, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 6, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 390, "cars_completed": 995, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 5, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 391, "cars_completed": 995, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 5, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 392, "cars_completed": 995, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 5, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 393, "cars_completed": 995, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 5, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 394, "cars_completed": 996, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 4, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 395, "cars_completed": 996, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 4, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 396, "cars_completed": 996, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 4, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 397, "cars_completed": 997, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 3, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 398, "cars_completed": 997, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 3, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 399, "cars_completed": 997, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 3, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 400, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 401, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 402, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 403, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 404, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 405, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 406, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 407, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 408, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 409, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 410, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 411, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 412, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 413, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 414, "cars_completed": 998, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 2, "avg_connection_duration": 30.168196994991654, "avg_connection_health": 0
+    },
+{"timestamp": 415, "cars_completed": 998, "new_connections_made": 1, "old_connections_dropped": 0, "active_connections": 2, "active_cars": 2, "avg_connection_duration": 30.162111412476527, "avg_connection_health": 0.21500908251085016
+    },
+{"timestamp": 416, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 2, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0.40885516297437685
+    },
+{"timestamp": 417, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 1, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 418, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 419, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 420, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 421, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 422, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 423, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 424, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 425, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 426, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 427, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 428, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 429, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 430, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 431, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 432, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 433, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 434, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 435, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 436, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 437, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 438, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 439, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 440, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 441, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 442, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 443, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 444, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 445, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 446, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 447, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 448, "cars_completed": 999, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 1, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    },
+{"timestamp": 449, "cars_completed": 1000, "new_connections_made": 0, "old_connections_dropped": 0, "active_connections": 0, "active_cars": 0, "avg_connection_duration": 30.162528687669518, "avg_connection_health": 0
+    }
+]

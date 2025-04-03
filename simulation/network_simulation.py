@@ -21,7 +21,8 @@ class NetworkSimulation:
         self.cars_completed = 0
         self.new_connections_made = 0
         self.old_connections_dropped = 0
-        self.active_connections = 0
+        self.active_connections = []
+        self.avg_connection_duration = 0
         self.analytics = []
 
     def calculate_distance(self, pos1, pos2):
@@ -123,8 +124,10 @@ class NetworkSimulation:
             'cars_completed': self.cars_completed,
             'new_connections_made': self.new_connections_made,
             'old_connections_dropped': self.old_connections_dropped,
-            'active_connections': self.active_connections,
+            'active_connections': len(self.active_connections),
             'active_cars': len([car for car in self.cars if car['active']]),
+            'avg_connection_duration': self.avg_connection_duration,
+            "avg_connection_health": self.avg_connection_health,
         })
     
     def save_analytics(self, filename):

@@ -65,9 +65,9 @@ def load_simulation(filename="/simulation_data/simulation_data.json"):
         return None, None
 
 if __name__ == "__main__":
-    simulated_routes, simulation_bounding_box = new_simulation()
+    # simulated_routes, simulation_bounding_box = new_simulation()
     # Save the simulation data to a JSON file
-    save_simulation(simulated_routes, simulation_bounding_box)
+    # save_simulation(simulated_routes, simulation_bounding_box)
     # Load the simulation data from the JSON file
     loaded_simulation_data, loaded_simulation_bounding_box = load_simulation()
 

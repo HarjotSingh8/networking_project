@@ -63,3 +63,4 @@ services:
       - ./simulation_data:/simulation_data
       - ./simulation:/simulation
       - ./data:/data
+      - ./visualization:/visualization

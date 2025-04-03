@@ -15,7 +15,7 @@ class SmartTopology(NetworkSimulation):
         self.time_tick = 0
         self.new_connections_made = 0
         self.old_connections_dropped = 0
-        self.active_connections = 0  # Initialize active connections as a number
+        # self.active_connections = 0  # Initialize active connections as a number
         self.avg_connection_health = 0
         self.connection_durations = {}  # Track connection durations
         self.avg_connection_duration = 0
@@ -124,7 +124,7 @@ class SmartTopology(NetworkSimulation):
         })
 
         # Update the number of active connections
-        self.active_connections = len(connected_pairs)
+        self.active_connections = connected_pairs
 
         # Calculate average connections per active car
         total_connections = sum(len(car["connections"]) for car in active_cars)

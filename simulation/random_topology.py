@@ -131,5 +131,13 @@ class RandomTopology(NetworkSimulation):
         self.new_connections_made = new_connections
         self.old_connections_dropped = old_connections
         self.num_connections = len(connected_pairs)
+
+        # Update active connections
+        self.active_connections = [
+            (car["id"], connected_car_id)
+            for car in active_cars
+            for connected_car_id in car["connections"]
+        ]
+
         print(f"created: {new_connections}, dropped: {old_connections}, connections: {len(connected_pairs)}, "
               f"avg_connection_duration: {avg_connection_duration:.2f} ticks, avg_connection_health: {avg_connection_health:.2f}")
